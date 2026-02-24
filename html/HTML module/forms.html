@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms / module 4</title>
+</head>
+
+<body>
+    <!-- start nav -->
+    <nav aria-label="main navigation" style="background-color: aquamarine; padding: 15px;">
+        <ul style="display: flex; list-style: none;">
+            <li style="margin-right: 35px;"><a href="index.html">home/module1</a></li>
+            <li style="margin-right: 35px;"><a href="about.html">about/module2</a></li>
+            <li style="margin-right: 35px;"><a href="media.html">media/module3</a></li>
+            <li style="margin-right: 35px;"><a href="att.html">att/module5</a></li>
+            <li style="margin-right: 35px;"><a href="forms.html">form/module4</a></li>
+            <li style="margin-right: 35px;"><a href="sematic.html">semantic/5</a></li>
+
+        </ul>
+    </nav>
+    <!-- end nav -->
+    <!-- start module 4 -->
+    <main>
+        <section>
+            <h1>user registration form</h1>
+            <div>
+                <form action="https://example.com/submit" method="post" target="_blank" autocomplete="off">
+                    <fieldset>
+                        <fieldset>
+                            <legend>registration data</legend>
+                            <label for="name">user name</label>
+                            <input type="text" name="userName" id="name">
+                            <label for="email">user email</label>
+                            <input type="email" name="userEmail" id="email" required>
+                            <label for="pass">password</label>
+                            <input type="password" name="password" id="pass">
+                            <label for="BD">birth date</label>
+                            <input type="date" name="BD" id="BD">
+                            <label for="file">upload your photo</label>
+                            <input type="file" name="photo" id="file">
+                        </fieldset>
+
+                        <fieldset>
+                            <legend>User Preferences</legend>
+                            <label for="sms">write about your self</label>
+                            <textarea name="sms" id="sms" rows="4" cols="40"></textarea>
+                            <label for="city">Country</label>
+                            <select name="city" id="city">
+                                <option value="" disabled selected>select</option>
+                                <option value="Amman">Amman</option>
+                                <option value="Aqaba">Aqaba</option>
+                                <option value="Ajloun">Ajloun</option>
+                                <option value="Irbid">Irbid</option>
+                                <option value="Jarash">Jarash</option>
+                            </select>
+                        </fieldset>
+                        <button type="submit">send</button>
+                    </fieldset>
+                </form>
+            </div>
+            <hr>
+            <div>
+                <form action="https://example.com/submit" method="post" target="_blank" autocomplete="off">
+                    <fieldset>
+                        <fieldset>
+                            <legend>survay form</legend>
+                            <label for="name">user name</label>
+                            <input type="text" name="userName" id="name" maxlength="10" required>
+                            <label for="age">age</label>
+                            <input type="number" name="age" id="age" min="18" max="60">
+
+                            <label for="fav">favorite programming</label>
+                            <input type="text" list="fav">
+                            <datalist id="fav">
+                                <option value="html">html</option>
+                                <option value="css"></option>
+                                <option value="js"></option>
+                                <option value="php"></option>
+                            </datalist>
+                        </fieldset>
+                        <button type="submit">send</button>
+                    </fieldset>
+                </form>
+            </div>
+        </section>
+    </main>
+    <!-- end module 4 -->
+
+</body>
+
+</html>

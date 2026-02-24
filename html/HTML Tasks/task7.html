@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task7</title>
+</head>
+
+<body>
+    <!-- start nav -->
+    <nav aria-label="main navigation">
+        <ul
+            style="display: flex; list-style: none; justify-content: center; margin-top: 25px; background-color: aliceblue; padding: 20px;">
+            <li style="margin-right: 15px;"><a href="index.html">Task 1</a></li>
+            <li style="margin-right: 15px;"><a href="task2.html">Task 2</a></li>
+            <li style="margin-right: 15px;"><a href="task3.html">Task 3</a></li>
+            <li style="margin-right: 15px;"><a href="task4.html">Task 4</a></li>
+            <li style="margin-right: 15px;"><a href="task5.html">Task 5</a></li>
+            <li style="margin-right: 15px;"><a href="task6.html">Task 6</a></li>
+            <li style="margin-right: 15px;"><a href="task7.html">Task 7</a></li>
+        </ul>
+    </nav>
+    <!-- end nav -->
+    <!-- start header -->
+    <header>
+        <h1>Images in tables</h1>
+        <hr>
+        <div>
+            <h2>what are you favorite pets?</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Pet image</th>
+                        <th>more facts about</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td><img src="../assets/img/Horses.jpg" onerror="this.src='../assets/img/Horses.jpg'"
+                                alt="hourse" width="100%" height="150px"></td>
+                        <td width="200px"><a href="https://en.wikipedia.org/wiki/Horse" target="_blank">hourse</a></td>
+                    </tr>
+                    <tr>
+                        <td><img src="../assets/img/dog.jpg" onerror="this.src='../assets/img/dog.jpg'" alt="dog"
+                                width="100%" height="150px"></td>
+                        <td><a href="https://en.wikipedia.org/wiki/Dog" target="_blank">dogs</a></td>
+                    </tr>
+                    <tr>
+                        <td><img src="../assets/img/cat.jpg" onerror="this.src='../assets/img/cat.jpg'" alt="cat"
+                                width="100%" height="150px"></td>
+                        <td><a href="https://en.wikipedia.org/wiki/Cat" target="_blank">cats</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </header>
+    <!-- end header -->
+    <!-- start sections -->
+    <main>
+        <!-- table 1 -->
+        <section>
+            <table border="2">
+                <thead>
+                    <tr>
+                        <th colspan="6">Time Table</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th rowspan="6">Hours</th>
+                        <th>Mon</th>
+                        <th>Tue</th>
+                        <th>Wed</th>
+                        <th>Thu</th>
+                        <th>Fri</th>
+                    </tr>
+                    <tr>
+                        <td>Math</td>
+                        <td>Science</td>
+                        <td>Math</td>
+                        <td>Science</td>
+                        <td>Arts</td>
+                    </tr>
+                    <tr>
+                        <td>Math</td>
+                        <td>Science</td>
+                        <td>Math</td>
+                        <td>Science</td>
+                        <td>Arts</td>
+                    </tr>
+                    <tr>
+                        <td colspan="5" style="text-align: center;">Lunch</td>
+                    </tr>
+                    <tr>
+                        <td>Math</td>
+                        <td>Science</td>
+                        <td>Math</td>
+                        <td rowspan="2" colspan="2" style="text-align: center;">project</td>
+                    </tr>
+                    <tr>
+                        <td>Math</td>
+                        <td>Science</td>
+                        <td>Math</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- table 2 -->
+        <section style="margin-top: 30px;">
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th colspan="2">Language and frameorks</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>python</td>
+                        <td>Django</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2">Javascript</td>
+                        <td>React.js</td>
+                    </tr>
+                    <tr>
+                        <td>Vue.js</td>
+                    </tr>
+                    <tr>
+                        <td>Ruby</td>
+                        <td>Ruby on Rails</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- table 3 -->
+        <section style="margin-top: 30px;">
+            <table border="1">
+                <tbody>
+                    <tr>
+                        <td rowspan="2">Row 1-2 , Col 1</td>
+                        <td>Row 1 , COl 2</td>
+                        <td>Row 1 , Col 3</td>
+                        <td>Row 1 , Col 4</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2" colspan="2">Row 2 , Col 2-3</td>
+                        <td>Row 2 , Col 4</td>
+                    </tr>
+                    <tr>
+                        <td>Row 3 , Col 1</td>
+                        <td>Row 3 , Col 4</td>
+                    </tr>
+                    <tr>
+                        <td>Row 4 , Col 1</td>
+                        <td>Row 4 , Col 2</td>
+                        <td colspan="2">Row 4 , Col 3-4</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- table 4 -->
+        <section style="margin-top: 30px;">
+            <table border="2" style="text-align: center;">
+                <tbody>
+                    <tr>
+                        <td rowspan="9">A</td>
+                        <td rowspan="8">B</td>
+                        <td rowspan="7">C</td>
+                        <td rowspan="6">D</td>
+                        <td rowspan="5">E</td>
+                        <td rowspan="4">F</td>
+                        <td colspan="2">AH</td>
+                        <td rowspan="4">H</td>
+                        <td rowspan="5">I</td>
+                        <td rowspan="6">J</td>
+                        <td rowspan="7">K</td>
+                        <td rowspan="8">L</td>
+                        <td rowspan="10">M</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">G</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">GH</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">N</td>
+                    </tr>
+                    <tr>
+                        <td colspan="4">O</td>
+                    </tr>
+                    <tr>
+                        <td colspan="6">P</td>
+                    </tr>
+                    <tr>
+                        <td colspan="8">Q</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">R</td>
+                        <td>S</td>
+                        <td>T</td>
+                        <td colspan="2">U</td>
+                        <td>V</td>
+                        <td>W</td>
+                        <td colspan="2">X</td>
+                    </tr>
+                    <tr>
+                        <td colspan="12">Y</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">Z</td>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>3</td>
+                        <td>4</td>
+                        <td colspan="2">5</td>
+                        <td>6</td>
+                        <td>7</td>
+                        <td>8</td>
+                        <td>9</td>
+                        <td>10</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- table 5 -->
+        <section style="margin-top: 30px;">
+            <table border="2" style="text-align: center;">
+                <caption style="font-weight: 900;">Time Table</caption>
+                <thead>
+                    <tr>
+                        <th>Day/Period</th>
+                        <th>I<br>9:30-10:20</th>
+                        <th>II<br>10:20-11:10</th>
+                        <th>III<br>11:10-12:00</th>
+                        <th>12:00-12:40</th>
+                        <th>IV<br>12:40-1:30</th>
+                        <th>V<br>1:30-2:20</th>
+                        <th>VI<br>2:20-3:10</th>
+                        <th>VII<br>3:10-4:00</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>Monday</th>
+                        <td>Eng</td>
+                        <td>Mat</td>
+                        <td>Che</td>
+                        <td rowspan="6">L<br>U<br>N<br>C<br>H</td>
+                        <td colspan="3">LAB</td>
+                        <td>Phy</td>
+                    </tr>
+                    <tr>
+                        <th>Tusday</th>
+                        <td colspan="3">LAB</td>
+                        <td>Eng</td>
+                        <td>Che</td>
+                        <td>Mat</td>
+                        <td>Sports</td>
+                    </tr>
+                    <tr>
+                        <th>Wednesday</th>
+                        <td>Mat</td>
+                        <td>Phy</td>
+                        <td>Eng</td>
+                        <td>Che</td>
+                        <td colspan="3">Library</td>
+                    </tr>
+                    <tr>
+                        <th>Thursday</th>
+                        <td>Phy</td>
+                        <td>Eng</td>
+                        <td>Che</td>
+                        <td colspan="3">LAB</td>
+                        <td>Mat</td>
+                    </tr>
+                    <tr>
+                        <th>Friday</th>
+                        <td colspan="3">LAB</td>
+                        <td>Mat</td>
+                        <td>Che</td>
+                        <td>Eng</td>
+                        <td>Phy</td>
+                    </tr>
+                    <tr>
+                        <th>Saturday</th>
+                        <td>Eng</td>
+                        <td>Che</td>
+                        <td>Mat</td>
+                        <td colspan="3">Seminar</td>
+                        <td>Sports</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+    <!-- end sections -->
+</body>
+
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task4</title>
+</head>
+
+<body>
+    <!-- start nav -->
+    <nav aria-label="main navigation">
+        <ul
+            style="display: flex; list-style: none; justify-content: center; margin-top: 25px; background-color: aliceblue; padding: 20px;">
+            <li style="margin-right: 15px;"><a href="index.html">Task 1</a></li>
+            <li style="margin-right: 15px;"><a href="task2.html">Task 2</a></li>
+            <li style="margin-right: 15px;"><a href="task3.html">Task 3</a></li>
+            <li style="margin-right: 15px;"><a href="task4.html">Task 4</a></li>
+            <li style="margin-right: 15px;"><a href="task5.html">Task 5</a></li>
+            <li style="margin-right: 15px;"><a href="task6.html">Task 6</a></li>
+            <li style="margin-right: 15px;"><a href="task7.html">Task 7</a></li>
+        </ul>
+    </nav>
+    <!-- end nav -->
+    <!-- start header -->
+    <header>
+        <div>
+            <h1>fill in your information</h1>
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>form</legend>
+                    <label for="Fnme">first name</label>
+                    <input type="text" name="Fname" id="Fname" required style="display: block;">
+                    <label for="Lnme">last name</label>
+                    <input type="text" name="Lname" id="Lname" required style="display: block;">
+                    <label for="email">email</label>
+                    <input type="email" name="email" id="email" required style="display: block;">
+
+                    <label style="display: block; font-weight: 900; margin-top: 15px;">your gender</label>
+                    <input type="radio" name="gender" value="m" id="male"><label for="male">male</label>
+                    <input type="radio" name="gender" value="f" id="fmale"><label for="fmale">fmale</label>
+
+                    <label style="display: block; font-weight: 900; margin-top: 15px;">favorite subjects</label>
+                    <input type="checkbox" name="lang" id="c++" value="1"><label for="c++">c++</label>
+                    <input type="checkbox" name="lang" id="jav" value="2"><label for="jav">jav</label>
+                    <input type="checkbox" name="lang" id="c#" value="3"><label for="c#">c#</label>
+                    <input type="checkbox" name="lang" id="php" value="4"><label for="php">php</label>
+
+                    <label for="city" style="display: block; font-weight: 900; margin-top: 15px;">your city</label>
+                    <select id="city">
+                        <option value="" disabled selected>select</option>
+                        <option value="Amman">Amman</option>
+                        <option value="Aqaba">Aqaba</option>
+                        <option value="Ajloun">Ajloun</option>
+                        <option value="Irbid">Irbid</option>
+                        <option value="Jarash">Jarash</option>
+                    </select>
+
+                    <label for="img" style="display: block; font-weight: 900; margin-top: 15px;">upload image</label>
+                    <input type="file" name="img" id="img">
+
+                    <label for="textarea" style="display: block; font-weight: 900; margin-top: 15px;">write about
+                        yourself</label>
+                    <textarea name="textarea" id="textarea"></textarea>
+
+                    <button value="submit" style="display: block;">submit</button>
+
+
+
+                </fieldset>
+            </form>
+        </div>
+    </header>
+    <!-- end header -->
+</body>
+
+</html>
