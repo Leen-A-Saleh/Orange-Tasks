@@ -1,0 +1,488 @@
+/* public css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 90%;
+    height: 100vh;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+.upper {
+    text-transform: capitalize;
+}
+
+.lower {
+    text-transform: lowercase;
+}
+
+.bg-yellow {
+    background-color: yellow;
+}
+
+.bg-pink {
+    background-color: pink;
+}
+
+header.header {
+    background-color: azure;
+    height: 100vh;
+    text-align: center;
+}
+
+/* ============================= */
+/* task1========================== */
+/* header ========*/
+header.header table {
+    margin: auto;
+    width: 400px;
+    font-size: 18px;
+}
+
+header.header tfoot {
+    font-weight: 900;
+}
+
+header.header table caption {
+    margin: 20px 0 5px;
+    color: rgba(128, 128, 128, 0.932);
+    border-bottom: 1px solid rgba(128, 128, 128, 0.932);
+}
+
+/* ============================= */
+/* task2========================== */
+/* header=========================== */
+header.header .container.task2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header.header .logOne {
+    height: 75vh;
+    width: 50%;
+    border: 1px solid black;
+}
+
+header.header .task2 .logo {
+    height: 70px;
+    text-align: start;
+}
+
+header.header .task2 .logo img {
+    width: 16%;
+    margin-left: 12px;
+}
+
+.form {
+    background-color: #fff;
+    width: 45%;
+    height: 70%;
+    margin: auto;
+    padding-top: 1px;
+    box-shadow: 0px 1px 3px rgba(128, 128, 128, 0.5);
+}
+
+header.header .task2 .form h1,
+p {
+    width: fit-content;
+    font-size: 25px;
+    margin: 15px 24px;
+}
+
+header.header .task2 .form p {
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+header.header .task2 .form form input {
+    margin-top: 15px;
+    height: 30px;
+    width: 80%;
+    padding: 10px;
+}
+
+header.header .task2 .form form input::placeholder {
+    font-size: 11px;
+}
+
+header.header .task2 .form form a {
+    display: block;
+    margin: 12px 30px;
+    text-align: start;
+    font-size: 12px;
+    color: rgb(48, 48, 190);
+}
+
+header.header .task2 .form form button {
+    display: block;
+    margin: 12px auto;
+    width: 75%;
+    height: 35px;
+    font-size: 13px;
+    border-radius: 20px;
+    border: 1px solid;
+}
+
+header.header .task2 .form form button[name='signin'] {
+    background-color: rgb(48, 48, 190);
+    border: 1px solid transparent;
+    color: #fff;
+}
+
+header.header .task2 .form form>span::after {
+    content: '';
+    display: block;
+    width: 105px;
+    height: 1px;
+    background-color: rgba(128, 128, 128, .5);
+    position: relative;
+    top: -6px;
+    left: 12px;
+}
+
+header.header .task2 .form form>span::before {
+    content: '';
+    display: block;
+    width: 105px;
+    height: 1px;
+    background-color: rgba(128, 128, 128, .5);
+    position: relative;
+    top: 12px;
+    right: -150px;
+}
+
+header.header .task2 .logOne .para {
+    margin: 15px auto;
+    font-size: 14px;
+}
+
+header.header .task2 .logOne .links ul {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    margin-top: -10px;
+}
+
+header.header .task2 .logOne .links ul li {
+    font-size: 10px;
+    color: rgba(128, 128, 128, 0.932);
+    margin-right: 10px;
+}
+
+header.header .task2 .logOne .links ul li:first-child {
+    width: 12%;
+}
+
+header.header .task2 .logOne .links ul li:first-child img {
+    width: 100%;
+}
+
+/* section 1 ====== log2*/
+.log2 form {
+    margin-top: 35px;
+    position: relative;
+}
+
+.log2 form input {
+    display: block;
+}
+
+.log2 form input:first-child {
+    width: 100%;
+    border-radius: 4px;
+    padding: 10px;
+    border: 1px solid gray;
+}
+
+.log2 form a {
+    display: inline-block;
+    position: absolute;
+    right: 25px;
+    top: 10px;
+    color: #000;
+    font-size: 14px;
+}
+
+.log2 form a.sign {
+    margin-right: 50px;
+    color: gray;
+}
+
+.log2 form .inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+
+}
+
+.log2 form label {
+    width: 20%;
+    margin-top: 15px;
+    margin-bottom: -8px;
+}
+
+.log2 form button,
+input[name="userEmail"],
+input[name="userPass"] {
+    border: 1px solid gray;
+    margin-top: 12px;
+    height: 28px;
+    width: 250px;
+}
+
+.log2 form button {
+    border-radius: 6px;
+    background-color: royalblue;
+    color: #fff;
+    border-color: transparent;
+    height: 33px;
+}
+
+/* end log2================ */
+/* start log3============== */
+.log3 {
+    background: linear-gradient(to top right, #fff, teal);
+
+}
+
+.log3 .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.log3 .form h1 {
+    color: teal;
+    text-align: center;
+    margin: 35px;
+}
+
+.log3 .form input[type="text"],
+input[type="password"],
+button {
+    display: block;
+    margin: 15px auto;
+    height: 30px;
+    padding: 10px;
+    border-color: rgba(128, 128, 128, 0.23);
+}
+
+.log3 .form input::placeholder {
+    font-size: 11px;
+}
+
+.log3 .form input[type="checkbox"],
+label[for="show"] {
+    display: inline-block;
+}
+
+.log3 .form label[for="show"] {
+    width: 42%;
+    text-align: start;
+    font-size: 14px;
+    margin-left: 12px;
+}
+
+.log3 .form button {
+    width: 15%;
+    height: 40px;
+    border-radius: 5px;
+    background-color: teal;
+    border: 1px solid teal;
+    color: #fff;
+    margin-top: 25px;
+}
+
+.log3 p {
+    font-size: 13px;
+    margin: 12px auto;
+}
+
+.log3 p>a {
+    color: teal;
+}
+
+/* end log3=========== */
+/* start log4========= */
+.log4 form input {
+    display: block;
+    width: 250px;
+    border: 0;
+    border-bottom: 1px solid teal !important;
+}
+
+.log4 form label {
+    display: block;
+    width: 250px;
+    text-align: start;
+    margin: auto;
+    color: teal;
+    font-size: 14px;
+    font-weight: 900;
+}
+
+/* end log4=========== */
+/* end task2================== */
+
+/* task6===================== */
+header.header.task6 .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+}
+
+header.header.task6 .container div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-weight: 900;
+    font-size: 50px;
+}
+
+header.header.task6 .div1 {
+    background-color: orange;
+}
+
+header.header.task6 .div2 {
+    background-color: blue;
+}
+
+/* section 1========== */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3,200px);
+    gap: 15px;
+    margin-top: 25px;
+}
+
+.gallery img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* section2=========== */
+.num {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3,150px);
+    margin-top: 25px;
+    border: 4px solid orange;
+}
+.num div{
+    color: #fff;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+
+}
+.div1{
+    background-color: green;
+}
+.div2{
+    background-color: blue;
+}
+.div3{
+    background-color: blueviolet;
+}
+.div4{
+    background-color: navy;
+}
+.div5{
+    background-color: yellow;
+}
+.div6{
+    background-color: orange;
+}
+.div7{
+    background-color: red;
+}
+.div8{
+    background-color: gray;
+}
+.div9{
+    background-color: palevioletred;
+}
+.div10{
+    background-color: teal;
+}
+/* section3====================== */
+.layout{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 50px 200px 120px;
+    gap: 15px;
+}
+.layout .div1,.div4{
+    grid-column: 1/3;
+}
+.layout .div1{
+    background-color: black;
+}
+.layout .div2{
+    background-color: orange;
+}
+.layout .div3{
+    background-color: green;
+}
+.layout .div4{
+    background-color: blue;
+}
+/* section4=============== */
+.last{
+    display: grid;
+    grid-template-columns: repeat(9,1fr);
+    grid-template-rows: repeat(1,500px);
+    border: 4px solid orange;
+    color: #fff;
+    font-weight: 900;
+    text-align: center;
+    font-size: 35px;
+}
+.last div:nth-child(1){
+    background-color: green;
+}
+.last div:nth-child(2){
+    background-color: black;
+}
+.last div:nth-child(3){
+    background-color: yellow;
+}
+.last div:nth-child(4){
+    background-color: purple;
+}
+.last div:nth-child(5){
+    background-color: gray;
+}
+.last div:nth-child(6){
+    background-color: blue;
+}
+.last div:nth-child(7){
+    background-color: pink;
+}
+.last div:nth-child(8){
+    background-color: red;
+}
+.last div:nth-child(9){
+    background-color: brown;
+}
