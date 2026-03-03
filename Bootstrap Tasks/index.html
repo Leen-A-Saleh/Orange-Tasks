@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstarp</title>
+    <!-- bootstarp css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+    <!-- font awesom -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- custom css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- media css -->
+    <link rel="stylesheet" href="assets/css/media.css">
+</head>
+<!-- start header -->
+<header>
+    <!-- start nav -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary shadow-sm">
+        <div class="container-fluid">
+            <a class="navbar-brand w-50 ms-3" href="index.html">Dashboard</a>
+            <button class="navbar-toggler d-md-none" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#mobileSidebar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse d-lg-flex justify-content-lg-end me-3">
+                <form class="w-100 w-lg-50 d-flex position-relative" role="search">
+                    <i class="fa-solid fa-magnifying-glass position-absolute text-gray"></i>
+                    <input class="form-control h-25 mt-2" type="search" placeholder="Search" aria-label="Search" />
+                    <div class="photo w-lg-25">
+                        <img src="assets/img/user-icon-removebg-preview.png" alt="profile photo" class="img-fluid">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- end nav -->
+    <!-- start dashboard body -->
+    <div class="container-fluid">
+        <div class="row">
+            <!-- start desktop sidebar -->
+            <aside class="col-lg-2 col-md-3 d-none d-md-block bg-dark text-white vh-100 p-3">
+                <ul class="nav flex-column mt-3">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link text-white active bg-gray rounded"><i
+                                class="fa-solid fa-gauge me-2 text-primary"></i> Dashboard</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link text-white"><i
+                                class="fa-solid fa-chart-line me-2"></i>Analytics</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link text-white"><i
+                                class="fa-regular fa-message me-2"></i>Messages</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link text-white"><i
+                                class="fa-solid fa-gear me-2"></i>Setting</a></li>
+                </ul>
+            </aside>
+            <!-- end desktop sidebar -->
+            <!-- start body -->
+            <div class="col-12 col-lg-10 col-md-9 p-5">
+                <!-- start cards -->
+                <div class="shadow-sm p-4 rounded">
+                    <h1 class="fs-2 mb-4">Dashboard</h1>
+                    <div class="row">
+                        <div class="col-12 col-md-6 col-lg-3 mb-4 mb-lg-0">
+                            <div class="card shadow-sm p-3">
+                                <h2 class="fs-4"><i class="fa-solid fa-gauge text-primary"></i> $7,500</h2>
+                                <p class="fw-medium">Total Sales</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-3 mb-4 mb-lg-0">
+                            <div class="card shadow-sm p-3">
+                                <h2 class="fs-4"><i class="fa-solid fa-user text-success"></i> 1,250</h2>
+                                <p class="fw-medium">New Users</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-3 mb-4 mb-lg-0">
+                            <div class="card shadow-sm p-3">
+                                <h2 class="fs-4"><i class="fa-solid fa-box-open text-warning"></i> 3,200</h2>
+                                <p class="fw-medium">Total Orders</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-3 mb-4 mb-lg-0">
+                            <div class="card shadow-sm p-3">
+                                <h2 class="fs-4"><i class="fa-solid fa-screwdriver-wrench text-danger"></i> 50</h2>
+                                <p class="fw-medium">Support Tickets</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end cards -->
+                </div>
+                <div class="shadow-sm p-4 rounded">
+                    <h2 class="fs-4">Transectient.</h2>
+                    <hr>
+                    <table class="table table-bordered table-hover table-responsive text-center" border="1">
+                        <thead>
+                            <tr class="table-active">
+                                <th>Order ID</th>
+                                <th>Customer</th>
+                                <th>Status</th>
+                                <th>Total</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>#10001</td>
+                                <td>John Doe</td>
+                                <td><span class="bg-success text-white py-1 px-2 rounded">Paid</span></td>
+                                <td>$120.00</td>
+                            </tr>
+                            <tr>
+                                <td>#10002</td>
+                                <td>Jane Smith</td>
+                                <td><span class="bg-warning text-white py-1 px-2 rounded">Pending</span></td>
+                                <td>$75.00</td>
+                            </tr>
+                            <tr>
+                                <td>#10003</td>
+                                <td>Mike Johnson</td>
+                                <td><span class="bg-success text-white py-1 px-2 rounded">Paid</span></td>
+                                <td>$45.00</td>
+                            </tr>
+                            <tr>
+                                <td>#10004</td>
+                                <td>Sarah Brown</td>
+                                <td><span class="bg-warning text-white py-1 px-2 rounded">Pending</span></td>
+                                <td>$200.00</td>
+                            </tr>
+                            <td>#10005</td>
+                            <td>Chris Wilson</td>
+                            <td><span class="bg-success text-white py-1 px-2 rounded">Paid</span></td>
+                            <td>$99.00</td>
+                        </tbody>
+                    </table>
+                    <tfoot>
+                            <ul class="pagination justify-content-center">
+                                <li class="page-item"><a href="#" class="page-link text-gray">Previous</a></li>
+                                <li class="page-item active">
+                                    <a class="page-link" href="#" aria-current="page">1</a>
+                                </li>
+                                <li class="page-item"><a class="page-link text-gray" href="#">Next</a></li>
+                            </ul>
+                    </tfoot>
+                </div>
+
+
+            </div>
+            <!-- end body -->
+        </div>
+    </div>
+    <!-- end dashboard body -->
+    <!-- ===================================== -->
+    <!-- start mobile sidebar -->
+    <div class="container-fluid">
+        <div class="offcanvas offcanvas-start bg-dark text-white" tabindex="-1" id="mobileSidebar">
+            <div class="offcanvas-body p-3">
+                <ul class="nav flex-column mt-3">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link text-white active bg-gray rounded"><i
+                                class="fa-solid fa-gauge me-2 text-primary"></i> Dashboard</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link text-white"><i
+                                class="fa-solid fa-chart-line me-2"></i>Analytics</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link text-white"><i
+                                class="fa-regular fa-message me-2"></i>Messages</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link text-white"><i
+                                class="fa-solid fa-gear me-2"></i>Setting</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- end mobile sidebar -->
+    <!-- ============================= -->
+</header>
+<!-- end header -->
+
+
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
