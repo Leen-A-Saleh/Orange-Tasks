@@ -1,0 +1,317 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    background-color: #ebedef;
+}
+
+img {
+    width: 20px;
+    height: 20px;
+
+}
+
+.one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #353e4b;
+    font-size: large;
+    font-weight: bold;
+    padding: 5px;
+    ;
+
+
+}
+
+.two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.two img {
+    border-radius: 50px;
+}
+
+.two input {
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid;
+    outline: none;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(238, 240, 241, 0.2), 0 6px 20px 0 rgba(53, 62, 75, 0.19);
+    ;
+    width: 100%;
+
+
+}
+
+.four {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    background-color: #353e4b;
+    width: 20%;
+    /* height: 100vh; */
+    color: white
+}
+
+.three {
+
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    /* height: 100vh; */
+
+
+
+}
+
+.four div {
+    padding: 20px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+
+
+}
+
+.four div:hover {
+    background-color: #647794;
+}
+
+.four p {
+    padding: 10px;
+}
+
+.four img {
+    width: 25px;
+}
+
+.eight {
+    display: flex;
+    flex-direction: column;
+    align-self: start;
+    flex-grow: 1;
+    /* height: 100vh; */
+}
+
+.five {
+    display: flex;
+    flex-direction: column;
+    /* height: 25vh; */
+    margin: 20px 50px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(238, 240, 241, 0.2), 0 6px 20px 0 rgba(53, 62, 75, 0.19);
+    ;
+
+}
+
+.five_1 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border: 1px solid red;
+}
+
+h2 {
+    padding: 10px;
+    color: #353e4b;
+    margin-left: 80px;
+    ;
+}
+
+.five_1 {
+    /* width: 22%; */
+    margin: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    column-gap: 0px;
+    row-gap: 5px;
+    padding: 10px;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(238, 240, 241, 0.2), 0 6px 20px 0 rgba(53, 62, 75, 0.19);
+    ;
+
+}
+
+.five_1 img {
+    width: 30px;
+    ;
+}
+
+.five_1 p {
+    font-weight: bold;
+}
+
+.a {
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.six {
+    /* height: 75vh; */
+}
+
+
+.six {
+    flex-grow: 1;
+    margin: 20px 50px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(238, 240, 241, 0.2), 0 6px 20px 0 rgba(53, 62, 75, 0.19);
+    ;
+    border: 1px solid blueviolet;
+
+
+}
+
+.six table {
+    width: 85%;
+    /* height: 45vh; */
+    margin: 0px 8%;
+    text-align: left;
+
+    outline: none;
+
+    border-spacing: 0px;
+
+
+}
+
+th {
+    text-align: left;
+    border: none;
+    outline: none;
+
+
+}
+
+td {
+    border: none;
+    outline: none;
+    border-top: 1px solid #647794
+}
+
+.six div {
+    width: 85%;
+    margin: 10px 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.six p {
+    padding: 20px;
+}
+
+.A {
+    background-color: #f89c13;
+    padding: 5px;
+    ;
+    border-radius: 5px;
+    ;
+    color: white;
+}
+
+.B {
+    background-color: #0fa05a;
+    padding: 5px;
+    ;
+    border-radius: 5px;
+    ;
+    color: white;
+}
+
+.C {
+    font-weight: bold;
+}
+
+th {
+    background-color: #ebedef;
+}
+
+select {
+    color: #647794;
+    border: 1px solid #647794;
+    border: none;
+}
+
+a {
+    text-decoration: none;
+    color: #647794;
+}
+
+.seven p {
+    margin: 0px 5px;
+    ;
+    padding: 0px 10px;
+}
+
+.D {
+    border: 1px solid #647794;
+
+}
+
+
+@media (max-width:992px) {
+    @media (max-width: 992px) {
+
+        .four {
+            width: 25%;
+        }
+
+
+        .five_1 div {
+            width: 45%;
+        }
+
+    }
+
+
+}
+
+@media (max-width: 600px) {
+
+    .four {
+        position: fixed;
+        left: -250px;
+        top: 0;
+        width: 200px;
+
+    }
+
+    .four.active {
+        left: 0;
+    }
+
+    .five_1 div {
+        width: 90%;
+
+
+
+    }
+
+    .five {
+        /* height: 70vh; */
+    }
+
+    .six {
+        /* height: 90vh; */
+    }
+
+}

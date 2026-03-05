@@ -1,4 +1,35 @@
 /* mobile======================= */
-@media (max-width: 575.98px) {}
+@media (max-width: 575.98px) {
+
+    /* ?==================miniProj.html================== */
+    .navbar-brand {
+        width: 65dvw !important;
+    }
+    header .row{
+        text-align: center;
+    }
+    header .join {
+        justify-content: center !important;
+    }
+    header .row p:first-child {
+        margin-bottom: .2rem;
+    }
+    header .row h1 {
+        margin-bottom: 1rem;
+    }
+    header .row p:nth-child(3) {
+        width: 100%;
+    }
+    header .row .join{
+        font-size: .8rem;
+    }
+    /* section============================ */
+    section h2,section p{
+        text-align: center;
+    }
+    section .card{
+        margin: auto;
+    }
+}
 
 @media (min-width: 576px) and (max-width: 767.98px) {}

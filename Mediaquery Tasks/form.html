@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form/media query</title>
+    <!-- fontawesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- custom css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- media css -->
+    <link rel="stylesheet" href="assets/css/media.css">
+</head>
+
+<body>
+    <!-- gride layout -->
+    <div class="layout">
+        <!-- start navbar -->
+        <nav class="navbar">
+            <div class="container">
+                <div class="row">
+                    <div class="logo upper">
+                        my website
+                    </div>
+                    <div class="nav-links">
+                        <ul>
+                            <li class="nav-links-item"><a href="#" class="upper">home</a></li>
+                            <li class="nav-links-item"><a href="#" class="upper">services</a></li>
+                            <li class="nav-links-item"><a href="#" class="upper">about</a></li>
+                            <li class="nav-links-item"><a href="#" class="upper">contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- start header -->
+        <header class="header form">
+            <div class="container">
+                <div class="row">
+                    <h1 class="upper">contact us</h1>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <textarea rows="2" cols="30" placeholder="Write your message..."></textarea>
+                </div>
+            </div>
+        </header>
+        <!-- start form2 -->
+        <section class="form2">
+            <div class="container">
+                <div class="formCard">
+                    <h2 class="upper">sign up</h2>
+                    <p><span class="upper">p</span>lease fill in this form to creat an account!</p>
+                    <hr>
+                    <form action="#">
+                        <div class="row">
+                            <input type="text" name="Fname" placeholder="First Name">
+                            <input type="text" name="Lname" placeholder="Last Name">
+                        </div>
+                        <input type="email" name="userEmail" placeholder="Email">
+                        <input type="password" name="Pass" placeholder="Password">
+                        <input type="password" name="Pass" placeholder="Confirm Password">
+                        <input type="checkbox" name="policy" id="policy"><label for="policy">I accept the <span>Terms of Use & Privacy Policy.</span></label>
+                        <button type="submit" value="Sign" class="upper">Sign up</button>
+                    </form>
+                </div>
+                <p><span class="upper">a</span>lready have an account? <a href="#" class="upper">login here</a></p>
+            </div>
+        </section>
+        <!-- start footer -->
+        <footer class="footer">
+            <div class="container">
+                <p>&copy;2026 <span class="upper">m</span>y<span class="upper">w</span>ebsite. <span
+                        class="upper">a</span>ll right re</p>
+
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>

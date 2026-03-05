@@ -1,0 +1,65 @@
+/*Mobile*/
+@media(max-width: 341px) { 
+    /* ?index.html=========================== */
+    /* navbar=============== */
+.navbar .logo{
+    font-size: .8rem;
+}
+/* header================ */
+header.header .row h1{
+    font-size: 1.2rem !important;
+    text-align: center;
+}
+}
+/* !===================! */
+@media(max-width: 576px) { 
+    /* ?=================index.html========================== */
+    /* navbar============= */
+.navbar .nav-links ul>.nav-links-item{
+    margin-left: .6rem;
+}
+/* header================== */
+header.header .row h1{
+    font-size: 1.8rem;
+}
+/* service================ */
+section.service .row{
+    display: block;
+}
+section.service div.card{
+    margin-top: 1.2rem;
+}
+/* about==================== */
+section.about .row{
+    display: block;
+}
+section.about .row .about-img {
+    width: 100dvw;
+}
+section.about .row .about-img img {
+    width: 95%;
+}
+section.about .row .about-info{
+    text-align: center;
+}
+section.about .row .about-info p:nth-child(2){
+    font-size: .9rem;
+    margin-bottom: 1rem;
+}
+section.about .row .about-info p:nth-child(3){
+    width: 100%;
+}
+/* ?====================form.html====================== */
+/* form2=================== */
+.form2 .formCard{
+    width: 85dvw;
+}
+}
+/*Tablet*/
+@media (min-width: 576px) and (max-width: 999px) { 
+
+}
+
+
+
+

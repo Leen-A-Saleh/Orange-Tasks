@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstarp</title>
+    <!-- bootstarp css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+    <!-- font awesom -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- custom css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- media css -->
+    <link rel="stylesheet" href="assets/css/media.css">
+</head>
+
+<body>
+    <!-- top button -->
+    <div class="bg-gray text-white position-fixed bottom-0 end-0 p-3 rounded-circle z-1">
+        <i class="fa-solid fa-arrow-up"></i>
+    </div>
+
+    <!-- start header -->
+    <header class="pb-5">
+        <!-- satrt navbar -->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary py-2 position-sticky top-0">
+            <div class="container">
+                <a class="navbar-brand w-25" href="miniProj.html"><img src="assets/img/OrangeLogo.webp"
+                        alt="orande logo" class="object-fit-cover img-fluid w-25"><span
+                        class="fw-medium text-capitalize">orange</span></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-between">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-capitalize" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                landing
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item text-capitalize" href="#">landing 1</a></li>
+                                <li><a class="dropdown-item text-capitalize" href="#">landing 2</a></li>
+                                <li><a class="dropdown-item text-capitalize" href="#">landing 3</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-capitalize" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                pages
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item text-capitalize" href="#">pages 1</a></li>
+                                <li><a class="dropdown-item text-capitalize" href="#">pages 2</a></li>
+                                <li><a class="dropdown-item text-capitalize" href="#">pages 3</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-capitalize" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                accounts
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item text-capitalize" href="#">accounts 1</a></li>
+                                <li><a class="dropdown-item text-capitalize" href="#">accounts 2</a></li>
+                                <li><a class="dropdown-item text-capitalize" href="#">accounts 3</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-capitalize" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                mega menu
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item text-capitalize" href="#">mega menu 1</a></li>
+                                <li><a class="dropdown-item text-capitalize" href="#">mega menu 2</a></li>
+                                <li><a class="dropdown-item text-capitalize" href="#">mega menu 3</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <div class="d-lg-flex justify-content-between align-items-center">
+                        <div class="rounded-circle me-2 d-none d-md-flex align-items-center justify-content-center"><i
+                                class="fa-solid fa-circle-half-stroke"></i></div>
+                        <div class="rounded-circle me-2 d-none d-md-flex align-items-center justify-content-center"><i
+                                class="fa-solid fa-cart-shopping"></i></div>
+                        <button type="button" class="btn btn-light text-main border me-2 fw-medium text-capitalize">sign
+                            in</button>
+                        <button type="button"
+                            class="btn btn-outline-dark bg-main text-white border-0 text-capitalize">sign
+                            up</button>
+                    </div>
+                </div>
+
+            </div>
+        </nav>
+        <!-- end navbar -->
+        <!-- start header body -->
+        <div class="container">
+            <div class="row pb-5">
+                <div class="col-12 col-md-6 pt-5 pb-3 px-4 d-flex flex-column justify-content-center">
+                    <p class="text-gray">Most trusted education platform</p>
+                    <h1 class="fw-bold">Grow your skills and advance career</h1>
+                    <p class="text-gray mb-5">Start, switch, or advance your career with more than 5,000
+                        courses, Professional Certificates, and degrees from world-class
+                        universities and companies.</p>
+                    <div class="join d-flex justify-content-start align-items-center">
+                        <button type="button"
+                            class="btn btn-light text-main border-0 me-2 fw-medium text-white bg-main text-uppercase">join
+                            free now</button>
+                        <div class="demo d-flex align-items-center py-1 px-2 ms-lg-3">
+                            <i
+                                class="fa-solid fa-play me-2 rounded-circle d-flex justify-content-center align-items-center"></i>
+                            <span class="fw-medium">Watch Demo</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <img src="assets/img/2026.png" alt="..." class="img-fluid object-fit-cover w-100">
+                </div>
+                <!-- end header body -->
+            </div>
+            <!-- start card -->
+            <div class="cards text-center">
+                <div class="row">
+                    <div class="card col-12 col-md-6 col-lg-3 px-2 py-3 shadow-sm">
+                        <i class="fa-solid fa-medal text-primary text-center w-100 fs-4 my-2"></i>
+                        <h2 class="fs-4 fw-bold">316,000+</h2>
+                        <p class="text-gray fw-medium">Qualified Instructor</p>
+                    </div>
+                    <div class="card col-12 col-md-6 col-lg-3 px-2 py-3 shadow-sm">
+                        <i class="fa-solid fa-users text-warning text-center w-100 fs-4 my-2"></i>
+                        <h2 class="fs-4 fw-bold">1.8 Billion+</h2>
+                        <p class="text-gray fw-medium">Course enrolments</p>
+                    </div>
+                    <div class="card col-12 col-md-6 col-lg-3 px-2 py-3 shadow-sm">
+                        <i class="fa-solid fa-tv text-main text-center w-100 fs-4 my-2"></i>
+                        <h2 class="fs-4 fw-bold">41,000+</h2>
+                        <p class="text-gray fw-medium">Courses in 42 languages</p>
+                    </div>
+                    <div class="card col-12 col-md-6 col-lg-3 px-2 py-3 shadow-sm">
+                        <i class="fa-solid fa-film text-success text-center w-100 fs-4 my-2"></i>
+                        <h2 class="fs-4 fw-bold">179,000+</h2>
+                        <p class="text-gray fw-medium">Online Videos</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- end card -->
+        </div>
+    </header>
+    <!-- end header -->
+    <!-- start section -->
+    <section class="pt-lg-5">
+        <div class="container">
+            <h2 class="text-capitalize">most popular courses</h2>
+            <p class="text-gray mb-4">These are the most popular courses among Geeks Courses learners worldeide in year
+                2026
+            </p>
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="development-tab" data-bs-toggle="tab"
+                        data-bs-target="#development-tab-pane" type="button" role="tab"
+                        aria-controls="development-tab-pane" aria-selected="true">Development</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="design-tab" data-bs-toggle="tab" data-bs-target="#design-tab-pane"
+                        type="button" role="tab" aria-controls="design-tab-pane" aria-selected="false">Design</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="marketing-tab" data-bs-toggle="tab"
+                        data-bs-target="#marketing-tab-pane" type="button" role="tab" aria-controls="marketing-tab-pane"
+                        aria-selected="false">Marketing</button>
+                </li>
+
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="business" data-bs-toggle="tab" data-bs-target="#business-tab-pane"
+                        type="button" role="tab" aria-controls="business-tab-pane"
+                        aria-selected="false">Business</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="health" data-bs-toggle="tab" data-bs-target="#health-tab-pane"
+                        type="button" role="tab" aria-controls="health-tab-pane" aria-selected="false">Health</button>
+                </li>
+            </ul>
+            <div class="tab-content mt-5" id="myTabContent">
+
+                <div class="tab-pane fade show active" id="development-tab-pane" role="tabpanel"
+                    aria-labelledby="development-tab" tabindex="0">
+
+                    <div class="row gx-lg-5 gy-2">
+                        <div class="col-12 col-md-6 col-lg-3">
+                            <div class="card" style="width: 18rem;">
+                                <img src="assets/img/js.png" class="card-img-top img-fluid object-fit-cover" alt="...">
+                                <div class="card-body">
+                                    <div class="card-head d-flex justify-content-between align-items-center mb-3">
+                                        <span class="text-primary py-1 px-2 rounded">Intermediate</span>
+                                        <i class="fa-regular fa-heart text-gray"></i>
+                                    </div>
+                                    <h3 class="fs-5 fw-bold">How to easy create a website with</h3>
+                                    <span class="text-gray ">By: Claire Evans</span>
+                                    <div class="text-warning mt-1 mb-3">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <span class="text-warning me-2">4.5</span><span class="text-gray">(9,300)</span>
+                                    </div>
+                                    <div class="card-footer d-flex justify-content-between">
+                                        <span class="text-gray fw-bold">$39.00 <i
+                                                class="fa-solid fa-cart-shopping"></i></span>
+                                        <span class="text-gray">Get Enrolled</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-md-6 col-lg-3">
+                            <div class="card" style="width: 18rem;">
+                                <img src="assets/img/js.png" class="card-img-top img-fluid object-fit-cover" alt="...">
+                                <div class="card-body">
+                                    <div class="card-head d-flex justify-content-between align-items-center mb-3">
+                                        <span class="text-primary py-1 px-2 rounded">Intermediate</span>
+                                        <i class="fa-regular fa-heart text-gray"></i>
+                                    </div>
+                                    <h3 class="fs-5 fw-bold">How to easy create a website with</h3>
+                                    <span class="text-gray ">By: Claire Evans</span>
+                                    <div class="text-warning mt-1 mb-3">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <span class="text-warning me-2">4.5</span><span class="text-gray">(9,300)</span>
+                                    </div>
+                                    <div class="card-footer d-flex justify-content-between">
+                                        <span class="text-gray fw-bold">$39.00 <i
+                                                class="fa-solid fa-cart-shopping"></i></span>
+                                        <span class="text-gray">Get Enrolled</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-md-6 col-lg-3">
+                            <div class="card" style="width: 18rem;">
+                                <img src="assets/img/js.png" class="card-img-top img-fluid object-fit-cover" alt="...">
+                                <div class="card-body">
+                                    <div class="card-head d-flex justify-content-between align-items-center mb-3">
+                                        <span class="text-primary py-1 px-2 rounded">Intermediate</span>
+                                        <i class="fa-regular fa-heart text-gray"></i>
+                                    </div>
+                                    <h3 class="fs-5 fw-bold">How to easy create a website with</h3>
+                                    <span class="text-gray ">By: Claire Evans</span>
+                                    <div class="text-warning mt-1 mb-3">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <span class="text-warning me-2">4.5</span><span class="text-gray">(9,300)</span>
+                                    </div>
+                                    <div class="card-footer d-flex justify-content-between">
+                                        <span class="text-gray fw-bold">$39.00 <i
+                                                class="fa-solid fa-cart-shopping"></i></span>
+                                        <span class="text-gray">Get Enrolled</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-md-6 col-lg-3">
+                            <div class="card" style="width: 18rem;">
+                                <img src="assets/img/js.png" class="card-img-top img-fluid object-fit-cover" alt="...">
+                                <div class="card-body">
+                                    <div class="card-head d-flex justify-content-between align-items-center mb-3">
+                                        <span class="text-primary py-1 px-2 rounded">Intermediate</span>
+                                        <i class="fa-regular fa-heart text-gray"></i>
+                                    </div>
+                                    <h3 class="fs-5 fw-bold">How to easy create a website with</h3>
+                                    <span class="text-gray ">By: Claire Evans</span>
+                                    <div class="text-warning mt-1 mb-3">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <span class="text-warning me-2">4.5</span><span class="text-gray">(9,300)</span>
+                                    </div>
+                                    <div class="card-footer d-flex justify-content-between">
+                                        <span class="text-gray fw-bold">$39.00 <i
+                                                class="fa-solid fa-cart-shopping"></i></span>
+                                        <span class="text-gray">Get Enrolled</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-md-6 col-lg-3">
+                            <div class="card" style="width: 18rem;">
+                                <img src="assets/img/js.png" class="card-img-top img-fluid object-fit-cover" alt="...">
+                                <div class="card-body">
+                                    <div class="card-head d-flex justify-content-between align-items-center mb-3">
+                                        <span class="text-primary py-1 px-2 rounded">Intermediate</span>
+                                        <i class="fa-regular fa-heart text-gray"></i>
+                                    </div>
+                                    <h3 class="fs-5 fw-bold">How to easy create a website with</h3>
+                                    <span class="text-gray ">By: Claire Evans</span>
+                                    <div class="text-warning mt-1 mb-3">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <span class="text-warning me-2">4.5</span><span class="text-gray">(9,300)</span>
+                                    </div>
+                                    <div class="card-footer d-flex justify-content-between">
+                                        <span class="text-gray fw-bold">$39.00 <i
+                                                class="fa-solid fa-cart-shopping"></i></span>
+                                        <span class="text-gray">Get Enrolled</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-md-6 col-lg-3">
+                            <div class="card" style="width: 18rem;">
+                                <img src="assets/img/js.png" class="card-img-top img-fluid object-fit-cover" alt="...">
+                                <div class="card-body">
+                                    <div class="card-head d-flex justify-content-between align-items-center mb-3">
+                                        <span class="text-primary py-1 px-2 rounded">Intermediate</span>
+                                        <i class="fa-regular fa-heart text-gray"></i>
+                                    </div>
+                                    <h3 class="fs-5 fw-bold">How to easy create a website with</h3>
+                                    <span class="text-gray ">By: Claire Evans</span>
+                                    <div class="text-warning mt-1 mb-3">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <span class="text-warning me-2">4.5</span><span class="text-gray">(9,300)</span>
+                                    </div>
+                                    <div class="card-footer d-flex justify-content-between">
+                                        <span class="text-gray fw-bold">$39.00 <i
+                                                class="fa-solid fa-cart-shopping"></i></span>
+                                        <span class="text-gray">Get Enrolled</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-md-6 col-lg-3">
+                            <div class="card" style="width: 18rem;">
+                                <img src="assets/img/js.png" class="card-img-top img-fluid object-fit-cover" alt="...">
+                                <div class="card-body">
+                                    <div class="card-head d-flex justify-content-between align-items-center mb-3">
+                                        <span class="text-primary py-1 px-2 rounded">Intermediate</span>
+                                        <i class="fa-regular fa-heart text-gray"></i>
+                                    </div>
+                                    <h3 class="fs-5 fw-bold">How to easy create a website with</h3>
+                                    <span class="text-gray ">By: Claire Evans</span>
+                                    <div class="text-warning mt-1 mb-3">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <span class="text-warning me-2">4.5</span><span class="text-gray">(9,300)</span>
+                                    </div>
+                                    <div class="card-footer d-flex justify-content-between">
+                                        <span class="text-gray fw-bold">$39.00 <i
+                                                class="fa-solid fa-cart-shopping"></i></span>
+                                        <span class="text-gray">Get Enrolled</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-md-6 col-lg-3">
+                            <div class="card" style="width: 18rem;">
+                                <img src="assets/img/js.png" class="card-img-top img-fluid object-fit-cover" alt="...">
+                                <div class="card-body">
+                                    <div class="card-head d-flex justify-content-between align-items-center mb-3">
+                                        <span class="text-primary py-1 px-2 rounded">Intermediate</span>
+                                        <i class="fa-regular fa-heart text-gray"></i>
+                                    </div>
+                                    <h3 class="fs-5 fw-bold">How to easy create a website with</h3>
+                                    <span class="text-gray ">By: Claire Evans</span>
+                                    <div class="text-warning mt-1 mb-3">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <span class="text-warning me-2">4.5</span><span class="text-gray">(9,300)</span>
+                                    </div>
+                                    <div class="card-footer d-flex justify-content-between">
+                                        <span class="text-gray fw-bold">$39.00 <i
+                                                class="fa-solid fa-cart-shopping"></i></span>
+                                        <span class="text-gray">Get Enrolled</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-pane fade" id="design-tab-pane" role="tabpanel" aria-labelledby="design-tab"
+                    tabindex="0">
+
+                    <div class="row g-5">
+                        <div class="col-12 col-md-6 col-lg-3">
+                            <div class="card" style="width: 18rem;">
+                                <img src="assets/img/js.png" class="card-img-top img-fluid object-fit-cover" alt="...">
+                                <div class="card-body">
+                                    <div class="card-head d-flex justify-content-between align-items-center mb-3">
+                                        <span class="text-primary py-1 px-2 rounded">Intermediate</span>
+                                        <i class="fa-regular fa-heart text-gray"></i>
+                                    </div>
+                                    <h3 class="fs-5 fw-bold">How to easy create a website with</h3>
+                                    <span class="text-gray ">By: Claire Evans</span>
+                                    <div class="text-warning mt-1 mb-3">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <span class="text-warning me-2">4.5</span><span class="text-gray">(9,300)</span>
+                                    </div>
+                                    <div class="card-footer d-flex justify-content-between">
+                                        <span class="text-gray fw-bold">$39.00 <i
+                                                class="fa-solid fa-cart-shopping"></i></span>
+                                        <span class="text-gray">Get Enrolled</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-md-6 col-lg-3">
+                            <div class="card" style="width: 18rem;">
+                                <img src="assets/img/js.png" class="card-img-top img-fluid object-fit-cover" alt="...">
+                                <div class="card-body">
+                                    <div class="card-head d-flex justify-content-between align-items-center mb-3">
+                                        <span class="text-primary py-1 px-2 rounded">Intermediate</span>
+                                        <i class="fa-regular fa-heart text-gray"></i>
+                                    </div>
+                                    <h3 class="fs-5 fw-bold">How to easy create a website with</h3>
+                                    <span class="text-gray ">By: Claire Evans</span>
+                                    <div class="text-warning mt-1 mb-3">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <span class="text-warning me-2">4.5</span><span class="text-gray">(9,300)</span>
+                                    </div>
+                                    <div class="card-footer d-flex justify-content-between">
+                                        <span class="text-gray fw-bold">$39.00 <i
+                                                class="fa-solid fa-cart-shopping"></i></span>
+                                        <span class="text-gray">Get Enrolled</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-md-6 col-lg-3">
+                            <div class="card" style="width: 18rem;">
+                                <img src="assets/img/js.png" class="card-img-top img-fluid object-fit-cover" alt="...">
+                                <div class="card-body">
+                                    <div class="card-head d-flex justify-content-between align-items-center mb-3">
+                                        <span class="text-primary py-1 px-2 rounded">Intermediate</span>
+                                        <i class="fa-regular fa-heart text-gray"></i>
+                                    </div>
+                                    <h3 class="fs-5 fw-bold">How to easy create a website with</h3>
+                                    <span class="text-gray ">By: Claire Evans</span>
+                                    <div class="text-warning mt-1 mb-3">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <span class="text-warning me-2">4.5</span><span class="text-gray">(9,300)</span>
+                                    </div>
+                                    <div class="card-footer d-flex justify-content-between">
+                                        <span class="text-gray fw-bold">$39.00 <i
+                                                class="fa-solid fa-cart-shopping"></i></span>
+                                        <span class="text-gray">Get Enrolled</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-md-6 col-lg-3">
+                            <div class="card" style="width: 18rem;">
+                                <img src="assets/img/js.png" class="card-img-top img-fluid object-fit-cover" alt="...">
+                                <div class="card-body">
+                                    <div class="card-head d-flex justify-content-between align-items-center mb-3">
+                                        <span class="text-primary py-1 px-2 rounded">Intermediate</span>
+                                        <i class="fa-regular fa-heart text-gray"></i>
+                                    </div>
+                                    <h3 class="fs-5 fw-bold">How to easy create a website with</h3>
+                                    <span class="text-gray ">By: Claire Evans</span>
+                                    <div class="text-warning mt-1 mb-3">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <span class="text-warning me-2">4.5</span><span class="text-gray">(9,300)</span>
+                                    </div>
+                                    <div class="card-footer d-flex justify-content-between">
+                                        <span class="text-gray fw-bold">$39.00 <i
+                                                class="fa-solid fa-cart-shopping"></i></span>
+                                        <span class="text-gray">Get Enrolled</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-pane fade" id="marketing-tab-pane" role="tabpanel" aria-labelledby="marketing-tab"
+                    tabindex="0">
+
+                    <div class="row g-5">
+                        <div class="col-12 col-md-6 col-lg-3">
+                            <div class="card" style="width: 18rem;">
+                                <img src="assets/img/js.png" class="card-img-top img-fluid object-fit-cover" alt="...">
+                                <div class="card-body">
+                                    <div class="card-head d-flex justify-content-between align-items-center mb-3">
+                                        <span class="text-primary py-1 px-2 rounded">Intermediate</span>
+                                        <i class="fa-regular fa-heart text-gray"></i>
+                                    </div>
+                                    <h3 class="fs-5 fw-bold">How to easy create a website with</h3>
+                                    <span class="text-gray ">By: Claire Evans</span>
+                                    <div class="text-warning mt-1 mb-3">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <span class="text-warning me-2">4.5</span><span class="text-gray">(9,300)</span>
+                                    </div>
+                                    <div class="card-footer d-flex justify-content-between">
+                                        <span class="text-gray fw-bold">$39.00 <i
+                                                class="fa-solid fa-cart-shopping"></i></span>
+                                        <span class="text-gray">Get Enrolled</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-md-6 col-lg-3">
+                            <div class="card" style="width: 18rem;">
+                                <img src="assets/img/js.png" class="card-img-top img-fluid object-fit-cover" alt="...">
+                                <div class="card-body">
+                                    <div class="card-head d-flex justify-content-between align-items-center mb-3">
+                                        <span class="text-primary py-1 px-2 rounded">Intermediate</span>
+                                        <i class="fa-regular fa-heart text-gray"></i>
+                                    </div>
+                                    <h3 class="fs-5 fw-bold">How to easy create a website with</h3>
+                                    <span class="text-gray ">By: Claire Evans</span>
+                                    <div class="text-warning mt-1 mb-3">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <span class="text-warning me-2">4.5</span><span class="text-gray">(9,300)</span>
+                                    </div>
+                                    <div class="card-footer d-flex justify-content-between">
+                                        <span class="text-gray fw-bold">$39.00 <i
+                                                class="fa-solid fa-cart-shopping"></i></span>
+                                        <span class="text-gray">Get Enrolled</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-md-6 col-lg-3">
+                            <div class="card" style="width: 18rem;">
+                                <img src="assets/img/js.png" class="card-img-top img-fluid object-fit-cover" alt="...">
+                                <div class="card-body">
+                                    <div class="card-head d-flex justify-content-between align-items-center mb-3">
+                                        <span class="text-primary py-1 px-2 rounded">Intermediate</span>
+                                        <i class="fa-regular fa-heart text-gray"></i>
+                                    </div>
+                                    <h3 class="fs-5 fw-bold">How to easy create a website with</h3>
+                                    <span class="text-gray ">By: Claire Evans</span>
+                                    <div class="text-warning mt-1 mb-3">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <span class="text-warning me-2">4.5</span><span class="text-gray">(9,300)</span>
+                                    </div>
+                                    <div class="card-footer d-flex justify-content-between">
+                                        <span class="text-gray fw-bold">$39.00 <i
+                                                class="fa-solid fa-cart-shopping"></i></span>
+                                        <span class="text-gray">Get Enrolled</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-pane fade" id="business-tab-pane" role="tabpanel" aria-labelledby="business-tab"
+                    tabindex="0">
+
+                    <div class="row g-5">
+                        <div class="col-12 col-md-6 col-lg-3">
+                            <div class="card" style="width: 18rem;">
+                                <img src="assets/img/js.png" class="card-img-top img-fluid object-fit-cover" alt="...">
+                                <div class="card-body">
+                                    <div class="card-head d-flex justify-content-between align-items-center mb-3">
+                                        <span class="text-primary py-1 px-2 rounded">Intermediate</span>
+                                        <i class="fa-regular fa-heart text-gray"></i>
+                                    </div>
+                                    <h3 class="fs-5 fw-bold">How to easy create a website with</h3>
+                                    <span class="text-gray ">By: Claire Evans</span>
+                                    <div class="text-warning mt-1 mb-3">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <span class="text-warning me-2">4.5</span><span class="text-gray">(9,300)</span>
+                                    </div>
+                                    <div class="card-footer d-flex justify-content-between">
+                                        <span class="text-gray fw-bold">$39.00 <i
+                                                class="fa-solid fa-cart-shopping"></i></span>
+                                        <span class="text-gray">Get Enrolled</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-md-6 col-lg-3">
+                            <div class="card" style="width: 18rem;">
+                                <img src="assets/img/js.png" class="card-img-top img-fluid object-fit-cover" alt="...">
+                                <div class="card-body">
+                                    <div class="card-head d-flex justify-content-between align-items-center mb-3">
+                                        <span class="text-primary py-1 px-2 rounded">Intermediate</span>
+                                        <i class="fa-regular fa-heart text-gray"></i>
+                                    </div>
+                                    <h3 class="fs-5 fw-bold">How to easy create a website with</h3>
+                                    <span class="text-gray ">By: Claire Evans</span>
+                                    <div class="text-warning mt-1 mb-3">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <span class="text-warning me-2">4.5</span><span class="text-gray">(9,300)</span>
+                                    </div>
+                                    <div class="card-footer d-flex justify-content-between">
+                                        <span class="text-gray fw-bold">$39.00 <i
+                                                class="fa-solid fa-cart-shopping"></i></span>
+                                        <span class="text-gray">Get Enrolled</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-pane fade" id="health-tab-pane" role="tabpanel" aria-labelledby="health-tab"
+                    tabindex="0">
+
+                    <div class="row g-5">
+
+                        <div class="col-12 col-md-6 col-lg-3">
+                            <div class="card" style="width: 18rem;">
+                                <img src="assets/img/js.png" class="card-img-top img-fluid object-fit-cover" alt="...">
+                                <div class="card-body">
+                                    <div class="card-head d-flex justify-content-between align-items-center mb-3">
+                                        <span class="text-primary py-1 px-2 rounded">Intermediate</span>
+                                        <i class="fa-regular fa-heart text-gray"></i>
+                                    </div>
+                                    <h3 class="fs-5 fw-bold">How to easy create a website with</h3>
+                                    <span class="text-gray ">By: Claire Evans</span>
+                                    <div class="text-warning mt-1 mb-3">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <span class="text-warning me-2">4.5</span><span class="text-gray">(9,300)</span>
+                                    </div>
+                                    <div class="card-footer d-flex justify-content-between">
+                                        <span class="text-gray fw-bold">$39.00 <i
+                                                class="fa-solid fa-cart-shopping"></i></span>
+                                        <span class="text-gray">Get Enrolled</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end section -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
