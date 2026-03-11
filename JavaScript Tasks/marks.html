@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marks Program</title>
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+    <!-- custom css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <header class="d-flex justify-content-center align-items-center vh-100">
+        <div class="container">
+            <p class="text-center fs-6 fw-bold">Marks Program</p>
+            <div class="calculator m-auto text-center">
+                <input type="text" disabled>
+            </div>
+        </div>
+    </header>
+    <!-- bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- custom js -->
+    <script src="assets/js/index.js"></script>
+    <script>
+        let mark = Number(prompt("Enter Your marks:"));
+        let res;
+        function marks(mark) {
+            if (mark >= 90 && mark <= 100) {
+                return "A+";
+            } else if (mark >= 80 && mark <= 89) {
+                return "A";
+            } else if (mark >= 70 && mark <= 79) {
+                return "B";
+            } else if (mark >= 60 && mark <= 69) {
+                return "C";
+            } else if (mark >= 50 && mark <= 59) {
+                return "D";
+            } else {
+                return "FAIL";
+            }
+        }
+        res = marks(mark);
+        document.querySelector("input").value = `Your evaluate : ${res}`;
+    </script>
+</body>
+
+</html>
