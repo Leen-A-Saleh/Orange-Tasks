@@ -13,7 +13,8 @@ console.log(s3.charAt(0));
 
 // !P4======================
 let s4 = "coding is fun";
-console.log(s4.substring(0, 6));
+console.log(s4.split(" ")[0]);
+// slice(0,6)
 
 // !P5=====================
 let s5 = "cat";
@@ -69,17 +70,61 @@ let s16 = "There are 3 apples and 2 oranges";
 console.log(s16.match(/\d+/g));
 
 // !P17========================
-let s17="example@email.com";
-console.log(s17.includes('@'));
+let s17 = "example@email.com";
+let reg = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+console.log(reg.test(s17));
 
 // !P18============================
-let s18="This is a bad word";
-console.log(s18.replace("bad","good"));
+let s18 = "This is a bad word";
+console.log(s18.replace("bad", "good"));
 
 // !P19===========================
 // reduce
-let s19="aabbc";
+let s19 = "aabbc";
+console.log(s19.split(""));
 
 // !P20========================
-let s20="hello";
+let s20 = "hello";
 console.log(s20.split("").sort().join(""));
+
+// !P21====================
+let s21 = (str) => str.split("").sort().join("");
+console.log(s21("listen") === s21("silent"));
+
+// !P22=====================
+let s22 = "The quick brown fox";
+console.log(s22.split(" ").reverse().join(" "));
+
+// !P23==============
+let s23 = "Web development is fascinating";
+let s23P = s23
+  .split(" ")
+  .reduce((acc, cur) => (acc.length < cur.length ? cur : acc));
+console.log(s23P);
+
+// !P24==================
+let s25 = "A man, a plan, a canal, Panama!";
+let s25P = s25.replace(/[^a-z0-9]/gi, "").toLowerCase();
+let rev = s25P.split("").reverse().join("");
+console.log(s25P === rev);
+
+// !P25==================
+// !P26===================
+let s26 = "Hello World";
+console.log(s26.replaceAll('e',1));
+
+// !P27===================
+let s27 = "JavaScript is fun";
+console.log(s27.startsWith("Java"));
+
+// !P28====================
+let s28 = "image.png";
+console.log(s28.endsWith("png"));
+
+// !P29=======================
+let s29 = "ha";
+console.log(s29.repeat(3));
+
+// !P30=====================
+let s30 = "Hello World";
+console.log(s30.indexOf("o"));
