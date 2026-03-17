@@ -301,3 +301,169 @@ const GROUPBYLENGTH = (T) => {
 };
 
 console.log(GROUPBYLENGTH(T30));
+// TODO: map() , fpreach()=========================
+
+// !Ex1=========================
+const DOUBLENUMBER = (T) => {
+  return T.map((e) => e * 2);
+};
+
+console.log(DOUBLENUMBER([1, 2, 3]));
+
+// !Ex2===============================
+const FUNCTIONNUMBERSTOSTRINGS = (T) => {
+  return T.map((e) => e.toString());
+};
+
+console.log(FUNCTIONNUMBERSTOSTRINGS([1, 2, 3]));
+
+// !Ex3===========================
+const UPPERCASE = (T) => {
+  return T.map((e) => e.toUpperCase());
+};
+
+console.log(UPPERCASE(["ali", "sara"]));
+
+// !Ex4======================
+const ADDFIVE = (T) => {
+  return T.map((e) => e + 5);
+};
+
+console.log(ADDFIVE([10, 20, 30]));
+
+// !Ex5=====================
+const GETNAME = (T) => {
+  return T.map((e) => e.name);
+};
+
+console.log(
+  GETNAME([
+    { name: "Ali", age: 20 },
+    { name: "Sara", age: 25 },
+  ]),
+);
+
+// !Ex6========================
+const WORDLENGTH = (T) => {
+  return T.map((e) => e.length);
+};
+
+console.log(WORDLENGTH(["apple", "dog"]));
+
+// !Ex7=====================
+const MUL = (T) => {
+  return T.map((e, i) => e * i);
+};
+
+console.log(MUL([2, 3, 4]));
+
+// !Ex8======================
+const USERNAME = (T) => {
+  return T.map((e) => `@${e.username}`);
+};
+
+console.log(USERNAME([{ username: "ahmad" }, { username: "sara" }]));
+
+// !Ex9======================
+const SQUARES = (T) => {
+  return T.map((e) => e * e);
+};
+
+console.log(SQUARES([2, 3, 4]));
+
+// !Ex10=========================
+const FIRSTLETTERS = (T) => {
+  return T.map((e) => e.charAt(0)); //e[0]
+};
+
+console.log(FIRSTLETTERS(["Ali", "Sara"]));
+
+// !Ex11============================
+const TOTALSUM = (T) => {
+  let s = 0;
+  T.forEach((e) => (s += e));
+  return s;
+};
+
+console.log(TOTALSUM([10, 20, 30]));
+
+// !Ex12===================
+const EVENNUMBER = (T) => {
+  let c = 0;
+  T.forEach((e) => (e % 2 == 0 ? c++ : c));
+  return c;
+};
+
+console.log(EVENNUMBER([1, 2, 3, 4]));
+
+// !Ex13=================
+const TIMESTEN = (T) => {
+  return T.map((e) => e * 10);
+};
+
+console.log(TIMESTEN([1, 2, 3]));
+
+// !Ex14=======================
+const ADULT = (T) => {
+  return T.map((e) => ({
+    ...e,
+    adult: e.age >= 18,
+  }));
+};
+
+console.log(
+  ADULT([
+    { name: "Ali", age: 20 },
+    { name: "Sara", age: 15 },
+  ]),
+);
+
+// !Ex15====================
+const ADDTAX = (T) => {
+  return T.map((e) => e + 10);
+};
+
+console.log(ADDTAX([100, 200]));
+
+// !Ex16=================
+const COUNTBIG = (T) => {
+  let c = 0;
+  T.forEach((e) => {
+    e > 50 ? c++ : c;
+  });
+  return c;
+};
+
+console.log(COUNTBIG([20, 60, 80]));
+
+// !Ex17========================
+const NUMBER = (T) => {
+  return T.map((e) => `Number: ${e}`);
+};
+
+console.log(NUMBER([5, 10]));
+
+// !Ex18==================
+const PRODUCTNAME = (T) => {
+  return T.map((e) => e.product);
+};
+
+console.log(
+  PRODUCTNAME([
+    { product: "Laptop", price: 1000 },
+    { product: "Phone", price: 500 },
+  ]),
+);
+
+// !Ex19=======================
+const SUM = (T) => {
+  return T.map((e, i) => e + i);
+};
+
+console.log(SUM([5, 5, 5]));
+
+// !Ex20======================
+const EVEN = (T) => {
+  return T.map((e) => (e % 2 === 0 ? "True" : "False"));
+};
+console.log(EVEN([1, 2, 3, 4]));
