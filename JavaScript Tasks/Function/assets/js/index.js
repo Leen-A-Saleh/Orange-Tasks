@@ -467,3 +467,11 @@ const EVEN = (T) => {
   return T.map((e) => (e % 2 === 0 ? "True" : "False"));
 };
 console.log(EVEN([1, 2, 3, 4]));
+
+
+
+
+
+
+
+
