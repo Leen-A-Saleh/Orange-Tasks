@@ -60,7 +60,7 @@ CARDS.addEventListener("click", (e) => {
   CLICKEDCARD.classList.add("active");
 });
 
-// !Task5===========================================
+// !Task5 & Task3 (next5) ===========================================
 const HIDE = document.getElementById("hide");
 const PARAHIDE = HIDE.firstElementChild;
 const BTNHIDE = HIDE.lastElementChild;
@@ -100,3 +100,70 @@ MINUS.addEventListener("click", () => {
   NUMBER.textContent = counter;
   COLOR();
 });
+
+// TODO::::::::::::::::::::::::::::::::::::::::::::::::
+// !Task1==============================================
+const BOX = document.getElementById("box");
+
+BOX.addEventListener("mouseenter", () => {
+  BOX.classList.add("hover");
+});
+
+BOX.addEventListener("mouseleave", () => {
+  BOX.classList.remove("hover");
+});
+
+// !Task2=============================================
+const SELECT = document.getElementById("select");
+const FLAG = document.getElementById("flag");
+let flages = {
+  Palestine:
+    "https://upload.wikimedia.org/wikipedia/commons/0/00/Flag_of_Palestine.svg",
+  Jordan:
+    "https://upload.wikimedia.org/wikipedia/commons/c/c0/Flag_of_Jordan.svg",
+  Kuwait:
+    "https://upload.wikimedia.org/wikipedia/commons/a/aa/Flag_of_Kuwait.svg",
+};
+
+SELECT.addEventListener("change", () => {
+  let country = SELECT.value;
+  FLAG.src = flages[country];
+});
+
+// !Task4 & Task5============================================
+const TEXTAREA = document.getElementById("textarea");
+
+const FONTFAMILY = document.getElementById("fontSelect");
+const FONTSIZE = document.getElementById("sizeSelect");
+
+const ITALIC = document.getElementById("Italic");
+const BOLD = document.getElementById("Bold");
+const UNDERLINE = document.getElementById("Undeline");
+
+// font family
+FONTFAMILY.addEventListener("change", () => {
+  TEXTAREA.style.fontFamily = FONTFAMILY.value;
+});
+
+// font size
+FONTSIZE.addEventListener("change", () => {
+  TEXTAREA.style.fontSize = FONTSIZE.value;
+});
+
+// font style
+ITALIC.addEventListener("change", () => {
+  TEXTAREA.style.fontStyle = ITALIC.checked ? "italic" : "normal";
+});
+
+BOLD.addEventListener("change", () => {
+  TEXTAREA.style.fontWeight = BOLD.checked ? "bold" : "normal";
+});
+
+UNDERLINE.addEventListener("change", () => {
+  TEXTAREA.style.textDecoration = UNDERLINE.checked ? "underline" : "none";
+});
+
+// ?animation?????????
+setInterval(() => {
+  TEXTAREA.classList.toggle("active");
+}, 1000);
