@@ -35,7 +35,7 @@
             margin-top: 1rem;
         }
 
-        .d {
+        .d-none {
             display: none;
         }
 
@@ -50,6 +50,15 @@
             background-color: yellow;
             font-weight: bold;
         }
+        .postive{
+            color: rgb(0, 128, 68);
+        }
+        .negative{
+            color: #dc3545;
+        }
+        .zero{
+            color: #888;
+        }
     </style>
 </head>
 
@@ -60,15 +69,15 @@
             <div>
                 <p id="para">I’m passionate about programming, and I would like to join Orange Coding School for
                     training</p>
-                <button class="btn btn-danger w-25 mx-auto" id="btn">click</button>
+                <button class="btn btn-danger w-25 mx-auto" id="btn">Click</button>
             </div>
 
             <div class="mt-5">
                 <input type="text" name="text" id="text">
-                <p id="target"></p>
+                <p class="mt-2" id="target"></p>
             </div>
 
-            <div>
+            <div id="delegation">
                 <input type="text" id="input" class="px-3 rounded" placeholder="Add item..." />
                 <button class="btn btn-outline-light" id="addBtn">Add</button>
 
@@ -112,7 +121,7 @@
                 </select>
 
                 <div class="mt-2">
-                    <img id="flag" class="w-100 img-fluid object-fit-cover" />
+                    <img id="flag" class="w-50 mt-2 img-fluid object-fit-cover" />
                 </div>
             </div>
 
@@ -141,7 +150,6 @@
                 <textarea name="textarea" id="textarea" cols="50" rows="5"></textarea>
             </div>
         </div>
-
     </header>
 
     <!-- bootstrap js -->
