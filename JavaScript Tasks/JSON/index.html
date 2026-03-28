@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JSON</title>
+    <!-- bootstarp css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" />
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- custom css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body>
+    <!-- !start header -->
+    <header class="bg-main vh-100 d-flex justify-content-center align-items-center">
+        <div class="container">
+            <div id="cards"
+                class="bg-sec rounded d-flex flex-column justify-content-center align-items-center w-75 m-auto p-4">
+                <div class="text-center">
+                    <h1 class="fw-semibold py-3 px-2">
+                        <i class="fa-brands fa-github text-main me-1"></i> Github User <span
+                            class="text-main">Viewer</span>
+                    </h1>
+                </div>
+
+                <hr>
+                <!-- !JS Cards -->
+                <input type="text" id="search" placeholder="Search by username..." class="form-control mb-3 shadow-none">
+                <div class="row g-2 justify-content-center align-items-center" id="row">
+
+
+                </div>
+                <!-- <button class="btn btn-secondary mt-2" id="btn">Load More...</button> -->
+            </div>
+        </div>
+    </header>
+    <!-- !end header -->
+    <!-- bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- custom js -->
+    <script src="assets/js/index.js"></script>
+</body>
+
+</html>

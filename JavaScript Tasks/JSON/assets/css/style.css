@@ -1,0 +1,55 @@
+/* !public css======================================================= */
+:root {
+    --bg-main: #CDC1FF;
+    --bg-sec: #F5EFFF;
+    --text-main: #6752cf;
+    --text-sec: #E5D9F2;
+}
+
+.bg-main {
+    background-color: var(--bg-main);
+}
+
+.bg-sec {
+    background-color: var(--bg-sec);
+}
+
+.text-main {
+    color: var(--text-main);
+}
+
+/* !header======================== */
+header .bg-sec {
+    height: 85dvh;
+    box-shadow: 0 0 5px var(--text-main);
+}
+
+header .card {
+    background-color: transparent;
+    box-shadow: 0 0 5px var(--text-sec);
+}
+
+header .card .img {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+}
+
+header .card .img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+header .card h2{
+    font-size: 1.3rem;
+}
+header .card a.link {
+    color: var(--text-main);
+    transition: .5s;
+    font-size: .85rem;
+}
+
+header .card a.link:hover {
+    transform: scale(1.02);
+}
