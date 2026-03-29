@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>storge</title>
+    <!-- bootstarp css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" />
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <!-- !start header -->
+    <header class="bg-main vh-100 d-flex justify-content-center align-items-center">
+        <div class="container" id="parent">
+            <input type="text" name="name" class="form-control w-50" id="name" placeholder="Name">
+            <input type="email" name="email" class="form-control w-50 mt-2" id="email" placeholder="Email">
+            <button class="btn btn-secondary mt-3" id="btn">Save</button>
+            <div class="card mt-3 p-2">
+                <div class="d-flex justify-content-center align-items-center position-relative">
+                    <i class="fa-solid fa-magnifying-glass position-absolute start-0 ms-2 text-secondary"></i>
+                    <input type="text" class="w-100 border-secondary-50" name="search" id="search">
+                </div>
+                <div id="card"></div>
+            </div>
+        </div>
+    </header>
+    <!-- !end header -->
+    <!-- bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- custom js -->
+    <script src="assets/js/index.js"></script>
+</body>
+
+</html>
