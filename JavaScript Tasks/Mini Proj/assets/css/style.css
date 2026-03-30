@@ -1,0 +1,123 @@
+/* font===================== */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --main-font: font-family: "Noto Sans", sans-serif;
+    --main-color: #693382;
+}
+
+body {
+    font-family: var(--main-font);
+    background-color: #F5ECE0;
+}
+
+header .slider {
+    height: 12rem;
+    background-color: var(--main-color);
+}
+
+header .slider {
+    color: #F5ECE0;
+    letter-spacing: 2px;
+    font-size: 1.2rem;
+}
+
+header .slider span {
+    font-size: .9rem;
+}
+
+header .slider #slider-item {
+    border: 1px solid #d8d8d8;
+}
+
+header .slider i {
+    cursor: pointer;
+}
+
+header .slider i#prev {
+    animation: prev 1.5s infinite alternate;
+}
+
+header .slider i#next {
+    animation: next 1.5s infinite alternate;
+}
+
+@keyframes prev {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-10px);
+    }
+}
+
+@keyframes next {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(10px);
+    }
+}
+
+header .form-control,
+header .form-control:focus {
+    background-color: transparent;
+    border-color: var(--main-color);
+    box-shadow: none;
+}
+
+header .btn {
+    background-color: var(--main-color);
+    color: #F5ECE0;
+}
+
+header .btn:hover,
+header .btn:focus {
+    background-color: var(--main-color) !important;
+    color: #F5ECE0 !important;
+    transform: scale(1.01);
+}
+
+header h1 {
+    color: var(--main-color);
+}
+
+header .card {
+    box-shadow: 0 0 3px 2px #d8d8d8;
+    background-color: transparent;
+}
+
+header .card span,
+header .card i {
+    color: var(--main-color);
+}
+
+/* ?loading????????? */
+header .loading {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+}
+
+header .loading p {
+    color: var(--main-color);
+}
+
+header .loading i {
+    animation: spin 3s infinite alternate;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* !popup!!!!!!!!!1 */
+

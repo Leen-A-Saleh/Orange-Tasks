@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mini Proj</title>
+    <!-- bootstarp css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" />
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- custom css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <!-- !start header -->
+    <header>
+        <div class="container" id="parent">
+            <!-- !slider -->
+            <div class="slider rounded mt-3 d-flex justify-content-center align-items-center" id="slider">
+                <i class="fa-solid fa-chevron-left" id="prev"></i>
+                <div class="shadow-lg rounded w-50 p-3 mx-5 text-center" id="slider-item">
+
+                </div>
+                <i class="fa-solid fa-chevron-right" id="next"></i>
+            </div>
+            <!-- !end slider -->
+
+            <!-- !start search -->
+            <h1 class="text-center py-4 fw-bold">User Directory</h1>
+            <div class="d-flex justify-content-center align-items-center">
+                <input type="text" name="search" id="inputSearch" class="form-control mb-2">
+                <button class="btn text-white ms-2 mb-2" id="btn">Search</button>
+                <button class="btn text-white ms-2 mb-2" id="clear">Clear</button>
+            </div>
+            <!-- !end search -->
+
+            <!-- !satrt DOM cards -->
+            <div class="row g-3" id="row">
+                <!-- !loading msg-->
+                <div
+                    class="loading vh-100 position-absolute top-0 start-0 d-flex justify-content-center align-items-center">
+                    <p class="fs-1 fw-bold"><i class="fa-solid fa-circle-notch"></i> Loading ...</p>
+                </div>
+            </div>
+            <!-- !end DOM cards -->
+            
+            <!-- !popup details -->
+            <!-- <div class="pop" id="pop">
+                <div class="pop-box">
+                    <button class="btn btn-close" id="closePop"></button>
+                    <div id="modalContent"></div>
+                </div>
+            </div> -->
+        </div>
+        </div>
+    </header>
+    <!-- !end header -->
+    <!-- bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- custom js -->
+    <script src="assets/js/index.js"></script>
+</body>
+
+</html>
