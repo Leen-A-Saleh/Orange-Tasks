@@ -1,4 +1,6 @@
-﻿namespace C_1
+﻿using System.Threading.Channels;
+
+namespace C_1
 {
     internal class Program
     {
@@ -79,12 +81,11 @@
                 _ => "Invalid month"
             }
             : "Invalid input");
-        //Task13--------------
-        double num1, num11;
-        char op;
+            //Task13--------------
+            double num1, num11;
+            char op;
 
-            Console.WriteLine(
-                double.TryParse(Console.ReadLine(), out num1) &&
+            Console.WriteLine(double.TryParse(Console.ReadLine(), out num1) &&
         double.TryParse(Console.ReadLine(), out num11) &&
         char.TryParse(Console.ReadLine(), out op)
         ? op switch
@@ -99,7 +100,7 @@
             //Task14--------------
             char grade;
 
-            Console.WriteLine(char.TryParse(Console.ReadLine(), out grade)?
+            Console.WriteLine(char.TryParse(Console.ReadLine(), out grade) ?
                 char.ToUpper(grade) switch
                 {
                     'A' => "Excellent",
@@ -114,14 +115,14 @@
             //Task15----------------
             int number;
 
-            Console.WriteLine(int.TryParse(Console.ReadLine(), out number)?
+            Console.WriteLine(int.TryParse(Console.ReadLine(), out number) ?
                  number switch
-                {
-                    1 => "You chose One",
-                    2 => "You chose Two",
-                    3 => "You chose Three",
-                    _ => "Invalid number"
-                }
+                 {
+                     1 => "You chose One",
+                     2 => "You chose Two",
+                     3 => "You chose Three",
+                     _ => "Invalid number"
+                 }
                 : "Invalid input"
             );
             //Task16-----------------
@@ -152,8 +153,7 @@
             Console.WriteLine("1. Add");
             Console.WriteLine("2. Subtract");
             Console.WriteLine("3. Exit");
-            Console.WriteLine(
-                int.TryParse(Console.ReadLine(), out choice)
+            Console.WriteLine(int.TryParse(Console.ReadLine(), out choice)
                 ? choice switch
                 {
                     1 => "Add",
@@ -163,25 +163,56 @@
                 }
                 : "Invalid input"
             );
-            //Task19---------------
+            //Task1|2---------------
+            double rate;
+            Console.WriteLine(double.TryParse(Console.ReadLine(), out rate) ?
+                rate <= 100 && rate >= 90 ? $"Excellent{rate * 0.2}" : rate >= 75 && rate <= 89 ?
+                $"Very Good{rate * 0.15}" : rate >= 60 && rate <= 74 ? $"Good{rate * 0.1}"
+                : "No Bouns" : "Invalid");
+            //Task2|2-------------------
+            float GPA;
+            bool Etest, reco;
+            Console.WriteLine("enter GPA then English test true(pass)/false(fail) finally if you have any recommendation true/false");
+            Console.WriteLine(float.TryParse(Console.ReadLine(), out GPA) &&
+                bool.TryParse(Console.ReadLine(), out Etest) &&
+                bool.TryParse(Console.ReadLine(), out reco) ?
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+                (GPA >= 85 && Etest) || reco ? "Eligible"
+                 : "Not Eligible" : "invalid");
+            //Task3|2------------------
+            decimal weight;
+            Console.WriteLine(decimal.TryParse(Console.ReadLine(), out weight) ?
+                weight > 0 && weight <= 1 ? "cost is $5" : weight <= 5 ? "cost is $10" :
+                weight > 5 && weight <= 10 ? "cost is $20" : "$50,warning:Heavy package" : "Invalid");
+            //Task4|2-------------------
+            int c = 0;
+            string userName = "Leen", pass = "123", userName_in, pass_in;
+            while (c < 3)
+            {
+                userName_in = Console.ReadLine();
+                pass_in = Console.ReadLine();
+                if (userName == userName_in && pass == pass_in)
+                {
+                    Console.WriteLine("Welcom");
+                    break;
+                }
+                else
+                {
+                    Console.WriteLine("Invalid,Try again");
+                    c++;
+                }
+            }
+            //Task1|3-----------------
+            int m;
+            Console.WriteLine(int.TryParse(Console.ReadLine(), out m) ?
+                m switch
+                {
+                    1 => "Burger ($5)",
+                    2 => "Pizza ($8)",
+                    3 => "Pasta ($7)",
+                    4 => "Salad ($4)",
+                    _ => "Invalid"
+                } : "Invalid");
 
         }
     }
