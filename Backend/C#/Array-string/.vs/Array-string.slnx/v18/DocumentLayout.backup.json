@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\leena\\Orange-Tasks\\Backend\\C#\\Array-string\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{22764FBC-7050-4CC7-9BD5-F26B1F16606A}|Array-string\\Array-string.csproj|c:\\users\\leena\\orange-tasks\\backend\\c#\\array-string\\array-string\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22764FBC-7050-4CC7-9BD5-F26B1F16606A}|Array-string\\Array-string.csproj|solutionrelative:array-string\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\leena\\Orange-Tasks\\Backend\\C#\\Array-string\\Array-string\\Program.cs",
+              "RelativeDocumentMoniker": "Array-string\\Program.cs",
+              "ToolTip": "C:\\Users\\leena\\Orange-Tasks\\Backend\\C#\\Array-string\\Array-string\\Program.cs*",
+              "RelativeToolTip": "Array-string\\Program.cs*",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAAAFYAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T08:31:59.154Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

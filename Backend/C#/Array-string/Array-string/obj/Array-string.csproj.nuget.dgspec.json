@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\leena\\Orange-Tasks\\Backend\\C#\\C#1\\C#1\\C#1.csproj": {}
+    "C:\\Users\\leena\\Orange-Tasks\\Backend\\C#\\Array-string\\Array-string\\Array-string.csproj": {}
   },
   "projects": {
-    "C:\\Users\\leena\\Orange-Tasks\\Backend\\C#\\C#1\\C#1\\C#1.csproj": {
+    "C:\\Users\\leena\\Orange-Tasks\\Backend\\C#\\Array-string\\Array-string\\Array-string.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\leena\\Orange-Tasks\\Backend\\C#\\C#1\\C#1\\C#1.csproj",
-        "projectName": "C#1",
-        "projectPath": "C:\\Users\\leena\\Orange-Tasks\\Backend\\C#\\C#1\\C#1\\C#1.csproj",
+        "projectUniqueName": "C:\\Users\\leena\\Orange-Tasks\\Backend\\C#\\Array-string\\Array-string\\Array-string.csproj",
+        "projectName": "Array-string",
+        "projectPath": "C:\\Users\\leena\\Orange-Tasks\\Backend\\C#\\Array-string\\Array-string\\Array-string.csproj",
         "packagesPath": "C:\\Users\\leena\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\leena\\Orange-Tasks\\Backend\\C#\\C#1\\C#1\\obj\\",
+        "outputPath": "C:\\Users\\leena\\Orange-Tasks\\Backend\\C#\\Array-string\\Array-string\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
