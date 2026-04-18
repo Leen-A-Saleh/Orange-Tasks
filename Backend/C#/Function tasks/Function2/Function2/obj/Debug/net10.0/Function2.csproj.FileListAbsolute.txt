@@ -1,0 +1,15 @@
+C:\Users\leena\Orange-Tasks\Backend\C#\Function tasks\Function2\Function2\bin\Debug\net10.0\Function2.exe
+C:\Users\leena\Orange-Tasks\Backend\C#\Function tasks\Function2\Function2\bin\Debug\net10.0\Function2.deps.json
+C:\Users\leena\Orange-Tasks\Backend\C#\Function tasks\Function2\Function2\bin\Debug\net10.0\Function2.runtimeconfig.json
+C:\Users\leena\Orange-Tasks\Backend\C#\Function tasks\Function2\Function2\bin\Debug\net10.0\Function2.dll
+C:\Users\leena\Orange-Tasks\Backend\C#\Function tasks\Function2\Function2\bin\Debug\net10.0\Function2.pdb
+C:\Users\leena\Orange-Tasks\Backend\C#\Function tasks\Function2\Function2\obj\Debug\net10.0\Function2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\leena\Orange-Tasks\Backend\C#\Function tasks\Function2\Function2\obj\Debug\net10.0\Function2.AssemblyInfoInputs.cache
+C:\Users\leena\Orange-Tasks\Backend\C#\Function tasks\Function2\Function2\obj\Debug\net10.0\Function2.AssemblyInfo.cs
+C:\Users\leena\Orange-Tasks\Backend\C#\Function tasks\Function2\Function2\obj\Debug\net10.0\Function2.csproj.CoreCompileInputs.cache
+C:\Users\leena\Orange-Tasks\Backend\C#\Function tasks\Function2\Function2\obj\Debug\net10.0\Function2.sourcelink.json
+C:\Users\leena\Orange-Tasks\Backend\C#\Function tasks\Function2\Function2\obj\Debug\net10.0\Function2.dll
+C:\Users\leena\Orange-Tasks\Backend\C#\Function tasks\Function2\Function2\obj\Debug\net10.0\refint\Function2.dll
+C:\Users\leena\Orange-Tasks\Backend\C#\Function tasks\Function2\Function2\obj\Debug\net10.0\Function2.pdb
+C:\Users\leena\Orange-Tasks\Backend\C#\Function tasks\Function2\Function2\obj\Debug\net10.0\Function2.genruntimeconfig.cache
+C:\Users\leena\Orange-Tasks\Backend\C#\Function tasks\Function2\Function2\obj\Debug\net10.0\ref\Function2.dll

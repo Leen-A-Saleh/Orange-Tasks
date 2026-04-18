@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\leena\\Orange-Tasks\\Backend\\C#\\Function tasks\\Function3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{68396ACB-76EB-F69A-35DA-4B3F33FBFDB0}|Function3\\Function3.csproj|c:\\users\\leena\\orange-tasks\\backend\\c#\\function tasks\\function3\\function3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68396ACB-76EB-F69A-35DA-4B3F33FBFDB0}|Function3\\Function3.csproj|solutionrelative:function3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\leena\\Orange-Tasks\\Backend\\C#\\Function tasks\\Function3\\Function3\\Program.cs",
+              "RelativeDocumentMoniker": "Function3\\Program.cs",
+              "ToolTip": "C:\\Users\\leena\\Orange-Tasks\\Backend\\C#\\Function tasks\\Function3\\Function3\\Program.cs",
+              "RelativeToolTip": "Function3\\Program.cs",
+              "ViewState": "AgIAAI0AAAAAAAAAAAAAAJ0AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T16:44:36.358Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

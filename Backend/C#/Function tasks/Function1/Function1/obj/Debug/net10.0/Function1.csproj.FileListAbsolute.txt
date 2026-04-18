@@ -1,0 +1,15 @@
+C:\Users\leena\Orange-Tasks\Backend\C#\Function tasks\Function1\Function1\obj\Debug\net10.0\Function1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\leena\Orange-Tasks\Backend\C#\Function tasks\Function1\Function1\obj\Debug\net10.0\Function1.AssemblyInfoInputs.cache
+C:\Users\leena\Orange-Tasks\Backend\C#\Function tasks\Function1\Function1\obj\Debug\net10.0\Function1.AssemblyInfo.cs
+C:\Users\leena\Orange-Tasks\Backend\C#\Function tasks\Function1\Function1\obj\Debug\net10.0\Function1.csproj.CoreCompileInputs.cache
+C:\Users\leena\Orange-Tasks\Backend\C#\Function tasks\Function1\Function1\obj\Debug\net10.0\Function1.sourcelink.json
+C:\Users\leena\Orange-Tasks\Backend\C#\Function tasks\Function1\Function1\bin\Debug\net10.0\Function1.exe
+C:\Users\leena\Orange-Tasks\Backend\C#\Function tasks\Function1\Function1\bin\Debug\net10.0\Function1.deps.json
+C:\Users\leena\Orange-Tasks\Backend\C#\Function tasks\Function1\Function1\bin\Debug\net10.0\Function1.runtimeconfig.json
+C:\Users\leena\Orange-Tasks\Backend\C#\Function tasks\Function1\Function1\bin\Debug\net10.0\Function1.dll
+C:\Users\leena\Orange-Tasks\Backend\C#\Function tasks\Function1\Function1\bin\Debug\net10.0\Function1.pdb
+C:\Users\leena\Orange-Tasks\Backend\C#\Function tasks\Function1\Function1\obj\Debug\net10.0\Function1.dll
+C:\Users\leena\Orange-Tasks\Backend\C#\Function tasks\Function1\Function1\obj\Debug\net10.0\refint\Function1.dll
+C:\Users\leena\Orange-Tasks\Backend\C#\Function tasks\Function1\Function1\obj\Debug\net10.0\Function1.pdb
+C:\Users\leena\Orange-Tasks\Backend\C#\Function tasks\Function1\Function1\obj\Debug\net10.0\Function1.genruntimeconfig.cache
+C:\Users\leena\Orange-Tasks\Backend\C#\Function tasks\Function1\Function1\obj\Debug\net10.0\ref\Function1.dll
