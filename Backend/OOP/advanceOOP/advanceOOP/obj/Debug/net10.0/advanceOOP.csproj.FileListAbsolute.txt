@@ -1,0 +1,15 @@
+C:\Users\leena\Orange-Tasks\Backend\OOP\advanceOOP\advanceOOP\bin\Debug\net10.0\advanceOOP.exe
+C:\Users\leena\Orange-Tasks\Backend\OOP\advanceOOP\advanceOOP\bin\Debug\net10.0\advanceOOP.deps.json
+C:\Users\leena\Orange-Tasks\Backend\OOP\advanceOOP\advanceOOP\bin\Debug\net10.0\advanceOOP.runtimeconfig.json
+C:\Users\leena\Orange-Tasks\Backend\OOP\advanceOOP\advanceOOP\bin\Debug\net10.0\advanceOOP.dll
+C:\Users\leena\Orange-Tasks\Backend\OOP\advanceOOP\advanceOOP\bin\Debug\net10.0\advanceOOP.pdb
+C:\Users\leena\Orange-Tasks\Backend\OOP\advanceOOP\advanceOOP\obj\Debug\net10.0\advanceOOP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\leena\Orange-Tasks\Backend\OOP\advanceOOP\advanceOOP\obj\Debug\net10.0\advanceOOP.AssemblyInfoInputs.cache
+C:\Users\leena\Orange-Tasks\Backend\OOP\advanceOOP\advanceOOP\obj\Debug\net10.0\advanceOOP.AssemblyInfo.cs
+C:\Users\leena\Orange-Tasks\Backend\OOP\advanceOOP\advanceOOP\obj\Debug\net10.0\advanceOOP.csproj.CoreCompileInputs.cache
+C:\Users\leena\Orange-Tasks\Backend\OOP\advanceOOP\advanceOOP\obj\Debug\net10.0\advanceOOP.sourcelink.json
+C:\Users\leena\Orange-Tasks\Backend\OOP\advanceOOP\advanceOOP\obj\Debug\net10.0\advanceOOP.dll
+C:\Users\leena\Orange-Tasks\Backend\OOP\advanceOOP\advanceOOP\obj\Debug\net10.0\refint\advanceOOP.dll
+C:\Users\leena\Orange-Tasks\Backend\OOP\advanceOOP\advanceOOP\obj\Debug\net10.0\advanceOOP.pdb
+C:\Users\leena\Orange-Tasks\Backend\OOP\advanceOOP\advanceOOP\obj\Debug\net10.0\advanceOOP.genruntimeconfig.cache
+C:\Users\leena\Orange-Tasks\Backend\OOP\advanceOOP\advanceOOP\obj\Debug\net10.0\ref\advanceOOP.dll
