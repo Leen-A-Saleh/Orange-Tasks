@@ -1,0 +1,15 @@
+C:\Users\leena\Orange-Tasks\Backend\C#\OOP\stdManagement-test\stdManagement-test\bin\Debug\net10.0\stdManagement-test.exe
+C:\Users\leena\Orange-Tasks\Backend\C#\OOP\stdManagement-test\stdManagement-test\bin\Debug\net10.0\stdManagement-test.deps.json
+C:\Users\leena\Orange-Tasks\Backend\C#\OOP\stdManagement-test\stdManagement-test\bin\Debug\net10.0\stdManagement-test.runtimeconfig.json
+C:\Users\leena\Orange-Tasks\Backend\C#\OOP\stdManagement-test\stdManagement-test\bin\Debug\net10.0\stdManagement-test.dll
+C:\Users\leena\Orange-Tasks\Backend\C#\OOP\stdManagement-test\stdManagement-test\bin\Debug\net10.0\stdManagement-test.pdb
+C:\Users\leena\Orange-Tasks\Backend\C#\OOP\stdManagement-test\stdManagement-test\obj\Debug\net10.0\stdManagement-test.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\leena\Orange-Tasks\Backend\C#\OOP\stdManagement-test\stdManagement-test\obj\Debug\net10.0\stdManagement-test.AssemblyInfoInputs.cache
+C:\Users\leena\Orange-Tasks\Backend\C#\OOP\stdManagement-test\stdManagement-test\obj\Debug\net10.0\stdManagement-test.AssemblyInfo.cs
+C:\Users\leena\Orange-Tasks\Backend\C#\OOP\stdManagement-test\stdManagement-test\obj\Debug\net10.0\stdManagement-test.csproj.CoreCompileInputs.cache
+C:\Users\leena\Orange-Tasks\Backend\C#\OOP\stdManagement-test\stdManagement-test\obj\Debug\net10.0\stdManagement-test.sourcelink.json
+C:\Users\leena\Orange-Tasks\Backend\C#\OOP\stdManagement-test\stdManagement-test\obj\Debug\net10.0\stdManagement-test.dll
+C:\Users\leena\Orange-Tasks\Backend\C#\OOP\stdManagement-test\stdManagement-test\obj\Debug\net10.0\refint\stdManagement-test.dll
+C:\Users\leena\Orange-Tasks\Backend\C#\OOP\stdManagement-test\stdManagement-test\obj\Debug\net10.0\stdManagement-test.pdb
+C:\Users\leena\Orange-Tasks\Backend\C#\OOP\stdManagement-test\stdManagement-test\obj\Debug\net10.0\stdManagement-test.genruntimeconfig.cache
+C:\Users\leena\Orange-Tasks\Backend\C#\OOP\stdManagement-test\stdManagement-test\obj\Debug\net10.0\ref\stdManagement-test.dll
