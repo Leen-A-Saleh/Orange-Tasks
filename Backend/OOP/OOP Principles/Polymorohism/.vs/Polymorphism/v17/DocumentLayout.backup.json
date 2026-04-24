@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\leena\\Orange-Tasks\\Backend\\OOP\\OOP Principles\\Polymorohism\\Polymorphism\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B22E0701-E119-477A-95D5-D4BE5614C3CA}|Polymorphism\\Polymorphism.csproj|c:\\users\\leena\\orange-tasks\\backend\\oop\\oop principles\\polymorohism\\polymorphism\\polymorphism\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B22E0701-E119-477A-95D5-D4BE5614C3CA}|Polymorphism\\Polymorphism.csproj|solutionrelative:polymorphism\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B22E0701-E119-477A-95D5-D4BE5614C3CA}|Polymorphism\\Polymorphism.csproj|c:\\users\\leena\\orange-tasks\\backend\\oop\\oop principles\\polymorohism\\polymorphism\\polymorphism\\models\\calculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B22E0701-E119-477A-95D5-D4BE5614C3CA}|Polymorphism\\Polymorphism.csproj|solutionrelative:polymorphism\\models\\calculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Calculator.cs",
+              "DocumentMoniker": "C:\\Users\\leena\\Orange-Tasks\\Backend\\OOP\\OOP Principles\\Polymorohism\\Polymorphism\\Polymorphism\\Models\\Calculator.cs",
+              "RelativeDocumentMoniker": "Polymorphism\\Models\\Calculator.cs",
+              "ToolTip": "C:\\Users\\leena\\Orange-Tasks\\Backend\\OOP\\OOP Principles\\Polymorohism\\Polymorphism\\Polymorphism\\Models\\Calculator.cs",
+              "RelativeToolTip": "Polymorphism\\Models\\Calculator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-24T18:13:24.635Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\leena\\Orange-Tasks\\Backend\\OOP\\OOP Principles\\Polymorohism\\Polymorphism\\Polymorphism\\Program.cs",
+              "RelativeDocumentMoniker": "Polymorphism\\Program.cs",
+              "ToolTip": "C:\\Users\\leena\\Orange-Tasks\\Backend\\OOP\\OOP Principles\\Polymorohism\\Polymorphism\\Polymorphism\\Program.cs*",
+              "RelativeToolTip": "Polymorphism\\Program.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-24T17:41:17.355Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
