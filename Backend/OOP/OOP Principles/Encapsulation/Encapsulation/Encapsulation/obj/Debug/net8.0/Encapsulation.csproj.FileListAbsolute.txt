@@ -1,0 +1,15 @@
+C:\Users\leena\Orange-Tasks\Backend\OOP\OOP Principles\Encapsulation\Encapsulation\Encapsulation\bin\Debug\net8.0\Encapsulation.exe
+C:\Users\leena\Orange-Tasks\Backend\OOP\OOP Principles\Encapsulation\Encapsulation\Encapsulation\bin\Debug\net8.0\Encapsulation.deps.json
+C:\Users\leena\Orange-Tasks\Backend\OOP\OOP Principles\Encapsulation\Encapsulation\Encapsulation\bin\Debug\net8.0\Encapsulation.runtimeconfig.json
+C:\Users\leena\Orange-Tasks\Backend\OOP\OOP Principles\Encapsulation\Encapsulation\Encapsulation\bin\Debug\net8.0\Encapsulation.dll
+C:\Users\leena\Orange-Tasks\Backend\OOP\OOP Principles\Encapsulation\Encapsulation\Encapsulation\bin\Debug\net8.0\Encapsulation.pdb
+C:\Users\leena\Orange-Tasks\Backend\OOP\OOP Principles\Encapsulation\Encapsulation\Encapsulation\obj\Debug\net8.0\Encapsulation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\leena\Orange-Tasks\Backend\OOP\OOP Principles\Encapsulation\Encapsulation\Encapsulation\obj\Debug\net8.0\Encapsulation.AssemblyInfoInputs.cache
+C:\Users\leena\Orange-Tasks\Backend\OOP\OOP Principles\Encapsulation\Encapsulation\Encapsulation\obj\Debug\net8.0\Encapsulation.AssemblyInfo.cs
+C:\Users\leena\Orange-Tasks\Backend\OOP\OOP Principles\Encapsulation\Encapsulation\Encapsulation\obj\Debug\net8.0\Encapsulation.csproj.CoreCompileInputs.cache
+C:\Users\leena\Orange-Tasks\Backend\OOP\OOP Principles\Encapsulation\Encapsulation\Encapsulation\obj\Debug\net8.0\Encapsulation.sourcelink.json
+C:\Users\leena\Orange-Tasks\Backend\OOP\OOP Principles\Encapsulation\Encapsulation\Encapsulation\obj\Debug\net8.0\Encapsulation.dll
+C:\Users\leena\Orange-Tasks\Backend\OOP\OOP Principles\Encapsulation\Encapsulation\Encapsulation\obj\Debug\net8.0\refint\Encapsulation.dll
+C:\Users\leena\Orange-Tasks\Backend\OOP\OOP Principles\Encapsulation\Encapsulation\Encapsulation\obj\Debug\net8.0\Encapsulation.pdb
+C:\Users\leena\Orange-Tasks\Backend\OOP\OOP Principles\Encapsulation\Encapsulation\Encapsulation\obj\Debug\net8.0\Encapsulation.genruntimeconfig.cache
+C:\Users\leena\Orange-Tasks\Backend\OOP\OOP Principles\Encapsulation\Encapsulation\Encapsulation\obj\Debug\net8.0\ref\Encapsulation.dll
