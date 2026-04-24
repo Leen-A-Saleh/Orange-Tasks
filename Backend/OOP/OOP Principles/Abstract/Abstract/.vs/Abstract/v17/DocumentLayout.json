@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\leena\\Orange-Tasks\\Backend\\OOP\\OOP Principles\\Abstract\\Abstract\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3A21FF37-BA17-49EC-A374-F1AB57BED2A8}|Abstract\\Abstract.csproj|c:\\users\\leena\\orange-tasks\\backend\\oop\\oop principles\\abstract\\abstract\\abstract\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A21FF37-BA17-49EC-A374-F1AB57BED2A8}|Abstract\\Abstract.csproj|solutionrelative:abstract\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A21FF37-BA17-49EC-A374-F1AB57BED2A8}|Abstract\\Abstract.csproj|c:\\users\\leena\\orange-tasks\\backend\\oop\\oop principles\\abstract\\abstract\\abstract\\models\\employee .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A21FF37-BA17-49EC-A374-F1AB57BED2A8}|Abstract\\Abstract.csproj|solutionrelative:abstract\\models\\employee .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A21FF37-BA17-49EC-A374-F1AB57BED2A8}|Abstract\\Abstract.csproj|c:\\users\\leena\\orange-tasks\\backend\\oop\\oop principles\\abstract\\abstract\\abstract\\models\\parttimeemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A21FF37-BA17-49EC-A374-F1AB57BED2A8}|Abstract\\Abstract.csproj|solutionrelative:abstract\\models\\parttimeemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A21FF37-BA17-49EC-A374-F1AB57BED2A8}|Abstract\\Abstract.csproj|c:\\users\\leena\\orange-tasks\\backend\\oop\\oop principles\\abstract\\abstract\\abstract\\models\\fulltimeemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A21FF37-BA17-49EC-A374-F1AB57BED2A8}|Abstract\\Abstract.csproj|solutionrelative:abstract\\models\\fulltimeemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PartTimeEmployee.cs",
+              "DocumentMoniker": "C:\\Users\\leena\\Orange-Tasks\\Backend\\OOP\\OOP Principles\\Abstract\\Abstract\\Abstract\\Models\\PartTimeEmployee.cs",
+              "RelativeDocumentMoniker": "Abstract\\Models\\PartTimeEmployee.cs",
+              "ToolTip": "C:\\Users\\leena\\Orange-Tasks\\Backend\\OOP\\OOP Principles\\Abstract\\Abstract\\Abstract\\Models\\PartTimeEmployee.cs",
+              "RelativeToolTip": "Abstract\\Models\\PartTimeEmployee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-24T21:05:47.433Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FullTimeEmployee.cs",
+              "DocumentMoniker": "C:\\Users\\leena\\Orange-Tasks\\Backend\\OOP\\OOP Principles\\Abstract\\Abstract\\Abstract\\Models\\FullTimeEmployee.cs",
+              "RelativeDocumentMoniker": "Abstract\\Models\\FullTimeEmployee.cs",
+              "ToolTip": "C:\\Users\\leena\\Orange-Tasks\\Backend\\OOP\\OOP Principles\\Abstract\\Abstract\\Abstract\\Models\\FullTimeEmployee.cs",
+              "RelativeToolTip": "Abstract\\Models\\FullTimeEmployee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-24T21:05:29.005Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Employee .cs",
+              "DocumentMoniker": "C:\\Users\\leena\\Orange-Tasks\\Backend\\OOP\\OOP Principles\\Abstract\\Abstract\\Abstract\\Models\\Employee .cs",
+              "RelativeDocumentMoniker": "Abstract\\Models\\Employee .cs",
+              "ToolTip": "C:\\Users\\leena\\Orange-Tasks\\Backend\\OOP\\OOP Principles\\Abstract\\Abstract\\Abstract\\Models\\Employee .cs",
+              "RelativeToolTip": "Abstract\\Models\\Employee .cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAUwBUAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-24T20:57:42.266Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\leena\\Orange-Tasks\\Backend\\OOP\\OOP Principles\\Abstract\\Abstract\\Abstract\\Program.cs",
+              "RelativeDocumentMoniker": "Abstract\\Program.cs",
+              "ToolTip": "C:\\Users\\leena\\Orange-Tasks\\Backend\\OOP\\OOP Principles\\Abstract\\Abstract\\Abstract\\Program.cs",
+              "RelativeToolTip": "Abstract\\Program.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAA8wA8AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-24T18:22:55.155Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
