@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\leena\\Orange-Tasks\\Backend\\OOP\\OOP Principles\\Interface\\Innterface\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{52577E2E-8BDB-41BC-B785-D44E91ED194D}|Innterface\\Innterface.csproj|c:\\users\\leena\\orange-tasks\\backend\\oop\\oop principles\\interface\\innterface\\innterface\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52577E2E-8BDB-41BC-B785-D44E91ED194D}|Innterface\\Innterface.csproj|solutionrelative:innterface\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52577E2E-8BDB-41BC-B785-D44E91ED194D}|Innterface\\Innterface.csproj|c:\\users\\leena\\orange-tasks\\backend\\oop\\oop principles\\interface\\innterface\\innterface\\models\\calculator .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52577E2E-8BDB-41BC-B785-D44E91ED194D}|Innterface\\Innterface.csproj|solutionrelative:innterface\\models\\calculator .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52577E2E-8BDB-41BC-B785-D44E91ED194D}|Innterface\\Innterface.csproj|c:\\users\\leena\\orange-tasks\\backend\\oop\\oop principles\\interface\\innterface\\innterface\\interfaces\\icalculator .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52577E2E-8BDB-41BC-B785-D44E91ED194D}|Innterface\\Innterface.csproj|solutionrelative:innterface\\interfaces\\icalculator .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Calculator .cs",
+              "DocumentMoniker": "C:\\Users\\leena\\Orange-Tasks\\Backend\\OOP\\OOP Principles\\Interface\\Innterface\\Innterface\\Models\\Calculator .cs",
+              "RelativeDocumentMoniker": "Innterface\\Models\\Calculator .cs",
+              "ToolTip": "C:\\Users\\leena\\Orange-Tasks\\Backend\\OOP\\OOP Principles\\Interface\\Innterface\\Innterface\\Models\\Calculator .cs",
+              "RelativeToolTip": "Innterface\\Models\\Calculator .cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAcwBUAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-24T22:17:36.036Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ICalculator .cs",
+              "DocumentMoniker": "C:\\Users\\leena\\Orange-Tasks\\Backend\\OOP\\OOP Principles\\Interface\\Innterface\\Innterface\\Interfaces\\ICalculator .cs",
+              "RelativeDocumentMoniker": "Innterface\\Interfaces\\ICalculator .cs",
+              "ToolTip": "C:\\Users\\leena\\Orange-Tasks\\Backend\\OOP\\OOP Principles\\Interface\\Innterface\\Innterface\\Interfaces\\ICalculator .cs",
+              "RelativeToolTip": "Innterface\\Interfaces\\ICalculator .cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-24T22:17:58.378Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\leena\\Orange-Tasks\\Backend\\OOP\\OOP Principles\\Interface\\Innterface\\Innterface\\Program.cs",
+              "RelativeDocumentMoniker": "Innterface\\Program.cs",
+              "ToolTip": "C:\\Users\\leena\\Orange-Tasks\\Backend\\OOP\\OOP Principles\\Interface\\Innterface\\Innterface\\Program.cs*",
+              "RelativeToolTip": "Innterface\\Program.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-24T22:15:09.482Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

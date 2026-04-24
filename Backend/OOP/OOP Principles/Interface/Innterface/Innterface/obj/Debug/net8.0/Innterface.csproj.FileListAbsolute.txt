@@ -1,0 +1,15 @@
+C:\Users\leena\Orange-Tasks\Backend\OOP\OOP Principles\Interface\Innterface\Innterface\bin\Debug\net8.0\Innterface.exe
+C:\Users\leena\Orange-Tasks\Backend\OOP\OOP Principles\Interface\Innterface\Innterface\bin\Debug\net8.0\Innterface.deps.json
+C:\Users\leena\Orange-Tasks\Backend\OOP\OOP Principles\Interface\Innterface\Innterface\bin\Debug\net8.0\Innterface.runtimeconfig.json
+C:\Users\leena\Orange-Tasks\Backend\OOP\OOP Principles\Interface\Innterface\Innterface\bin\Debug\net8.0\Innterface.dll
+C:\Users\leena\Orange-Tasks\Backend\OOP\OOP Principles\Interface\Innterface\Innterface\bin\Debug\net8.0\Innterface.pdb
+C:\Users\leena\Orange-Tasks\Backend\OOP\OOP Principles\Interface\Innterface\Innterface\obj\Debug\net8.0\Innterface.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\leena\Orange-Tasks\Backend\OOP\OOP Principles\Interface\Innterface\Innterface\obj\Debug\net8.0\Innterface.AssemblyInfoInputs.cache
+C:\Users\leena\Orange-Tasks\Backend\OOP\OOP Principles\Interface\Innterface\Innterface\obj\Debug\net8.0\Innterface.AssemblyInfo.cs
+C:\Users\leena\Orange-Tasks\Backend\OOP\OOP Principles\Interface\Innterface\Innterface\obj\Debug\net8.0\Innterface.csproj.CoreCompileInputs.cache
+C:\Users\leena\Orange-Tasks\Backend\OOP\OOP Principles\Interface\Innterface\Innterface\obj\Debug\net8.0\Innterface.sourcelink.json
+C:\Users\leena\Orange-Tasks\Backend\OOP\OOP Principles\Interface\Innterface\Innterface\obj\Debug\net8.0\Innterface.dll
+C:\Users\leena\Orange-Tasks\Backend\OOP\OOP Principles\Interface\Innterface\Innterface\obj\Debug\net8.0\refint\Innterface.dll
+C:\Users\leena\Orange-Tasks\Backend\OOP\OOP Principles\Interface\Innterface\Innterface\obj\Debug\net8.0\Innterface.pdb
+C:\Users\leena\Orange-Tasks\Backend\OOP\OOP Principles\Interface\Innterface\Innterface\obj\Debug\net8.0\Innterface.genruntimeconfig.cache
+C:\Users\leena\Orange-Tasks\Backend\OOP\OOP Principles\Interface\Innterface\Innterface\obj\Debug\net8.0\ref\Innterface.dll
