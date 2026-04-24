@@ -1,0 +1,15 @@
+C:\Users\leena\Orange-Tasks\Backend\C#\loop-array-string\task2\array-loop-string\array-loop-string\bin\Debug\net10.0\array-loop-string.exe
+C:\Users\leena\Orange-Tasks\Backend\C#\loop-array-string\task2\array-loop-string\array-loop-string\bin\Debug\net10.0\array-loop-string.deps.json
+C:\Users\leena\Orange-Tasks\Backend\C#\loop-array-string\task2\array-loop-string\array-loop-string\bin\Debug\net10.0\array-loop-string.runtimeconfig.json
+C:\Users\leena\Orange-Tasks\Backend\C#\loop-array-string\task2\array-loop-string\array-loop-string\bin\Debug\net10.0\array-loop-string.dll
+C:\Users\leena\Orange-Tasks\Backend\C#\loop-array-string\task2\array-loop-string\array-loop-string\bin\Debug\net10.0\array-loop-string.pdb
+C:\Users\leena\Orange-Tasks\Backend\C#\loop-array-string\task2\array-loop-string\array-loop-string\obj\Debug\net10.0\array-loop-string.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\leena\Orange-Tasks\Backend\C#\loop-array-string\task2\array-loop-string\array-loop-string\obj\Debug\net10.0\array-loop-string.AssemblyInfoInputs.cache
+C:\Users\leena\Orange-Tasks\Backend\C#\loop-array-string\task2\array-loop-string\array-loop-string\obj\Debug\net10.0\array-loop-string.AssemblyInfo.cs
+C:\Users\leena\Orange-Tasks\Backend\C#\loop-array-string\task2\array-loop-string\array-loop-string\obj\Debug\net10.0\array-loop-string.csproj.CoreCompileInputs.cache
+C:\Users\leena\Orange-Tasks\Backend\C#\loop-array-string\task2\array-loop-string\array-loop-string\obj\Debug\net10.0\array-loop-string.sourcelink.json
+C:\Users\leena\Orange-Tasks\Backend\C#\loop-array-string\task2\array-loop-string\array-loop-string\obj\Debug\net10.0\array-loop-string.dll
+C:\Users\leena\Orange-Tasks\Backend\C#\loop-array-string\task2\array-loop-string\array-loop-string\obj\Debug\net10.0\refint\array-loop-string.dll
+C:\Users\leena\Orange-Tasks\Backend\C#\loop-array-string\task2\array-loop-string\array-loop-string\obj\Debug\net10.0\array-loop-string.pdb
+C:\Users\leena\Orange-Tasks\Backend\C#\loop-array-string\task2\array-loop-string\array-loop-string\obj\Debug\net10.0\array-loop-string.genruntimeconfig.cache
+C:\Users\leena\Orange-Tasks\Backend\C#\loop-array-string\task2\array-loop-string\array-loop-string\obj\Debug\net10.0\ref\array-loop-string.dll
