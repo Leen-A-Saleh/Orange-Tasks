@@ -1,0 +1,15 @@
+C:\Users\leena\Orange-Tasks\Backend\Methods,List,LINQ,LinkedList\Methods,List,LINQ,LinkedList\Methods,List,LINQ,LinkedList\bin\Debug\net8.0\Methods,List,LINQ,LinkedList.exe
+C:\Users\leena\Orange-Tasks\Backend\Methods,List,LINQ,LinkedList\Methods,List,LINQ,LinkedList\Methods,List,LINQ,LinkedList\bin\Debug\net8.0\Methods,List,LINQ,LinkedList.deps.json
+C:\Users\leena\Orange-Tasks\Backend\Methods,List,LINQ,LinkedList\Methods,List,LINQ,LinkedList\Methods,List,LINQ,LinkedList\bin\Debug\net8.0\Methods,List,LINQ,LinkedList.runtimeconfig.json
+C:\Users\leena\Orange-Tasks\Backend\Methods,List,LINQ,LinkedList\Methods,List,LINQ,LinkedList\Methods,List,LINQ,LinkedList\bin\Debug\net8.0\Methods,List,LINQ,LinkedList.dll
+C:\Users\leena\Orange-Tasks\Backend\Methods,List,LINQ,LinkedList\Methods,List,LINQ,LinkedList\Methods,List,LINQ,LinkedList\bin\Debug\net8.0\Methods,List,LINQ,LinkedList.pdb
+C:\Users\leena\Orange-Tasks\Backend\Methods,List,LINQ,LinkedList\Methods,List,LINQ,LinkedList\Methods,List,LINQ,LinkedList\obj\Debug\net8.0\Methods,List,LINQ,LinkedList.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\leena\Orange-Tasks\Backend\Methods,List,LINQ,LinkedList\Methods,List,LINQ,LinkedList\Methods,List,LINQ,LinkedList\obj\Debug\net8.0\Methods,List,LINQ,LinkedList.AssemblyInfoInputs.cache
+C:\Users\leena\Orange-Tasks\Backend\Methods,List,LINQ,LinkedList\Methods,List,LINQ,LinkedList\Methods,List,LINQ,LinkedList\obj\Debug\net8.0\Methods,List,LINQ,LinkedList.AssemblyInfo.cs
+C:\Users\leena\Orange-Tasks\Backend\Methods,List,LINQ,LinkedList\Methods,List,LINQ,LinkedList\Methods,List,LINQ,LinkedList\obj\Debug\net8.0\Methods,List,LINQ,LinkedList.csproj.CoreCompileInputs.cache
+C:\Users\leena\Orange-Tasks\Backend\Methods,List,LINQ,LinkedList\Methods,List,LINQ,LinkedList\Methods,List,LINQ,LinkedList\obj\Debug\net8.0\Methods,List,LINQ,LinkedList.sourcelink.json
+C:\Users\leena\Orange-Tasks\Backend\Methods,List,LINQ,LinkedList\Methods,List,LINQ,LinkedList\Methods,List,LINQ,LinkedList\obj\Debug\net8.0\Methods,List,LINQ,LinkedList.dll
+C:\Users\leena\Orange-Tasks\Backend\Methods,List,LINQ,LinkedList\Methods,List,LINQ,LinkedList\Methods,List,LINQ,LinkedList\obj\Debug\net8.0\refint\Methods,List,LINQ,LinkedList.dll
+C:\Users\leena\Orange-Tasks\Backend\Methods,List,LINQ,LinkedList\Methods,List,LINQ,LinkedList\Methods,List,LINQ,LinkedList\obj\Debug\net8.0\Methods,List,LINQ,LinkedList.pdb
+C:\Users\leena\Orange-Tasks\Backend\Methods,List,LINQ,LinkedList\Methods,List,LINQ,LinkedList\Methods,List,LINQ,LinkedList\obj\Debug\net8.0\Methods,List,LINQ,LinkedList.genruntimeconfig.cache
+C:\Users\leena\Orange-Tasks\Backend\Methods,List,LINQ,LinkedList\Methods,List,LINQ,LinkedList\Methods,List,LINQ,LinkedList\obj\Debug\net8.0\ref\Methods,List,LINQ,LinkedList.dll
