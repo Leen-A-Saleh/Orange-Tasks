@@ -1,0 +1,120 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\leena\\Orange-Tasks\\Backend\\MVC\\CRUD\\StudentsCRUD\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{68EE6DA0-B843-4ABA-AD3C-B6A5A7CCA31C}|StudentsCRUD\\StudentsCRUD.csproj|c:\\users\\leena\\orange-tasks\\backend\\mvc\\crud\\studentscrud\\studentscrud\\views\\students\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68EE6DA0-B843-4ABA-AD3C-B6A5A7CCA31C}|StudentsCRUD\\StudentsCRUD.csproj|solutionrelative:studentscrud\\views\\students\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68EE6DA0-B843-4ABA-AD3C-B6A5A7CCA31C}|StudentsCRUD\\StudentsCRUD.csproj|c:\\users\\leena\\orange-tasks\\backend\\mvc\\crud\\studentscrud\\studentscrud\\views\\students\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68EE6DA0-B843-4ABA-AD3C-B6A5A7CCA31C}|StudentsCRUD\\StudentsCRUD.csproj|solutionrelative:studentscrud\\views\\students\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68EE6DA0-B843-4ABA-AD3C-B6A5A7CCA31C}|StudentsCRUD\\StudentsCRUD.csproj|c:\\users\\leena\\orange-tasks\\backend\\mvc\\crud\\studentscrud\\studentscrud\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68EE6DA0-B843-4ABA-AD3C-B6A5A7CCA31C}|StudentsCRUD\\StudentsCRUD.csproj|solutionrelative:studentscrud\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68EE6DA0-B843-4ABA-AD3C-B6A5A7CCA31C}|StudentsCRUD\\StudentsCRUD.csproj|c:\\users\\leena\\orange-tasks\\backend\\mvc\\crud\\studentscrud\\studentscrud\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68EE6DA0-B843-4ABA-AD3C-B6A5A7CCA31C}|StudentsCRUD\\StudentsCRUD.csproj|solutionrelative:studentscrud\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68EE6DA0-B843-4ABA-AD3C-B6A5A7CCA31C}|StudentsCRUD\\StudentsCRUD.csproj|c:\\users\\leena\\orange-tasks\\backend\\mvc\\crud\\studentscrud\\studentscrud\\views\\students\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68EE6DA0-B843-4ABA-AD3C-B6A5A7CCA31C}|StudentsCRUD\\StudentsCRUD.csproj|solutionrelative:studentscrud\\views\\students\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68EE6DA0-B843-4ABA-AD3C-B6A5A7CCA31C}|StudentsCRUD\\StudentsCRUD.csproj|c:\\users\\leena\\orange-tasks\\backend\\mvc\\crud\\studentscrud\\studentscrud\\views\\students\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68EE6DA0-B843-4ABA-AD3C-B6A5A7CCA31C}|StudentsCRUD\\StudentsCRUD.csproj|solutionrelative:studentscrud\\views\\students\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Update.cshtml",
+              "DocumentMoniker": "C:\\Users\\leena\\Orange-Tasks\\Backend\\MVC\\CRUD\\StudentsCRUD\\StudentsCRUD\\Views\\Students\\Update.cshtml",
+              "RelativeDocumentMoniker": "StudentsCRUD\\Views\\Students\\Update.cshtml",
+              "ToolTip": "C:\\Users\\leena\\Orange-Tasks\\Backend\\MVC\\CRUD\\StudentsCRUD\\StudentsCRUD\\Views\\Students\\Update.cshtml",
+              "RelativeToolTip": "StudentsCRUD\\Views\\Students\\Update.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-30T18:53:23.798Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\leena\\Orange-Tasks\\Backend\\MVC\\CRUD\\StudentsCRUD\\StudentsCRUD\\Views\\Students\\Create.cshtml",
+              "RelativeDocumentMoniker": "StudentsCRUD\\Views\\Students\\Create.cshtml",
+              "ToolTip": "C:\\Users\\leena\\Orange-Tasks\\Backend\\MVC\\CRUD\\StudentsCRUD\\StudentsCRUD\\Views\\Students\\Create.cshtml",
+              "RelativeToolTip": "StudentsCRUD\\Views\\Students\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-30T16:46:08.372Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StudentsController.cs",
+              "DocumentMoniker": "C:\\Users\\leena\\Orange-Tasks\\Backend\\MVC\\CRUD\\StudentsCRUD\\StudentsCRUD\\Controllers\\StudentsController.cs",
+              "RelativeDocumentMoniker": "StudentsCRUD\\Controllers\\StudentsController.cs",
+              "ToolTip": "C:\\Users\\leena\\Orange-Tasks\\Backend\\MVC\\CRUD\\StudentsCRUD\\StudentsCRUD\\Controllers\\StudentsController.cs",
+              "RelativeToolTip": "StudentsCRUD\\Controllers\\StudentsController.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAAACsAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-30T16:44:45.457Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\leena\\Orange-Tasks\\Backend\\MVC\\CRUD\\StudentsCRUD\\StudentsCRUD\\Views\\Students\\Details.cshtml",
+              "RelativeDocumentMoniker": "StudentsCRUD\\Views\\Students\\Details.cshtml",
+              "ToolTip": "C:\\Users\\leena\\Orange-Tasks\\Backend\\MVC\\CRUD\\StudentsCRUD\\StudentsCRUD\\Views\\Students\\Details.cshtml",
+              "RelativeToolTip": "StudentsCRUD\\Views\\Students\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-30T15:35:34.192Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\leena\\Orange-Tasks\\Backend\\MVC\\CRUD\\StudentsCRUD\\StudentsCRUD\\Views\\Students\\Index.cshtml",
+              "RelativeDocumentMoniker": "StudentsCRUD\\Views\\Students\\Index.cshtml",
+              "ToolTip": "C:\\Users\\leena\\Orange-Tasks\\Backend\\MVC\\CRUD\\StudentsCRUD\\StudentsCRUD\\Views\\Students\\Index.cshtml",
+              "RelativeToolTip": "StudentsCRUD\\Views\\Students\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-30T15:19:31.487Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\leena\\Orange-Tasks\\Backend\\MVC\\CRUD\\StudentsCRUD\\StudentsCRUD\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "StudentsCRUD\\Models\\Student.cs",
+              "ToolTip": "C:\\Users\\leena\\Orange-Tasks\\Backend\\MVC\\CRUD\\StudentsCRUD\\StudentsCRUD\\Models\\Student.cs",
+              "RelativeToolTip": "StudentsCRUD\\Models\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-30T15:17:58.233Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

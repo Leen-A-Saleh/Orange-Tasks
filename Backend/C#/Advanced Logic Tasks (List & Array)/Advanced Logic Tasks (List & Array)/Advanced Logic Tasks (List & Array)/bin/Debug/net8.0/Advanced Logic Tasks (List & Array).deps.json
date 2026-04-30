@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Advanced Logic Tasks (List & Array)/1.0.0": {
+        "runtime": {
+          "Advanced Logic Tasks (List & Array).dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Advanced Logic Tasks (List & Array)/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
