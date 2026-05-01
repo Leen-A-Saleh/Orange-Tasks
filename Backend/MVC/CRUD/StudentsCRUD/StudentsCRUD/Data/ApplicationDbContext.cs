@@ -10,8 +10,6 @@ namespace StudentsCRUD.Data
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             base.OnConfiguring(optionsBuilder);
-            optionsBuilder.UseSqlServer("Server=.;Database=stdCRUD;TrustServerCertificate=True;Trusted_Connection=True;");
-
         }
     }
 }
